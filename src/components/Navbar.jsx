@@ -3,7 +3,7 @@ import { BellIcon } from "@heroicons/react/24/outline";
 
 const Navbar = () => {
   return (
-    <nav className="font-figtree bg-[#FFFFFF]">
+    <nav className="font-figtree bg-[#FAFBFE]">
       <div className="flex items-center justify-between px-6 py-4">
         <div className="flex gap-2">
           <img
