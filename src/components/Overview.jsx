@@ -6,6 +6,9 @@ import {
   BanknotesIcon,
 } from "@heroicons/react/24/outline";
 import Glide from "@glidejs/glide";
+import ImageCard from "./ImageCard";
+import {sliderData} from "../Data/sliderData";
+import './extra.css'
 
 const Overview = () => {
   useEffect(() => {
@@ -37,7 +40,7 @@ const Overview = () => {
   }, []);
 
   return (
-    <div className="font-figtree bg-[#FFFFFF] min-h-screen">
+    <div className="font-figtree bg-[#FAFBFE] min-h-screen">
       <div className="max-w-screen-xl mx-auto flex flex-wrap justify-between px-6">
         <div className="flex items-center gap-3">
           <UserGroupIcon className="h-20 w-auto text-[#9E59C3]" />
@@ -72,46 +75,21 @@ const Overview = () => {
         </div>
       </div>
 
-      <h2 className="text-center mt-16 mb-8 text-2xl font-semibold">
+      <h2 className="text-center mt-16 mb-8 text-3xl font-semibold">
         Find companies that deserve you!
       </h2>
 
-      <div className="max-w-screen-xl mx-auto px-5">
+      <div className="max-w-screen-xl mx-auto px-5 pb-10">
         {/*<!-- Component: Carousel with controls inside --> */}
         <div className="glide-01 relative w-full">
           {/*    <!-- Slides --> */}
           <div className="overflow-hidden" data-glide-el="track">
             <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
-              <li>
-                <img
-                  src="https://Tailwindmix.b-cdn.net/carousel/carousel-image-01.jpg"
-                  className="m-auto max-h-full w-full max-w-full"
-                />
-              </li>
-              <li>
-                <img
-                  src="https://Tailwindmix.b-cdn.net/carousel/carousel-image-02.jpg"
-                  className="m-auto max-h-full w-full max-w-full"
-                />
-              </li>
-              <li>
-                <img
-                  src="https://Tailwindmix.b-cdn.net/carousel/carousel-image-03.jpg"
-                  className="m-auto max-h-full w-full max-w-full"
-                />
-              </li>
-              <li>
-                <img
-                  src="https://Tailwindmix.b-cdn.net/carousel/carousel-image-04.jpg"
-                  className="m-auto max-h-full w-full max-w-full"
-                />
-              </li>
-              <li>
-                <img
-                  src="https://Tailwindmix.b-cdn.net/carousel/carousel-image-05.jpg"
-                  className="m-auto max-h-full w-full max-w-full"
-                />
-              </li>
+              {sliderData.map(item => (
+                <li key={item.id}>
+                  <ImageCard data={item} />
+                </li>
+              ))}
             </ul>
           </div>
           {/*    <!-- Controls --> */}
@@ -166,6 +144,10 @@ const Overview = () => {
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
         {/*<!-- End Carousel with controls inside --> */}
+      </div>
+
+      <div className="flex justify-center">
+      <button className="button-29">View all companies</button>
       </div>
     </div>
   );

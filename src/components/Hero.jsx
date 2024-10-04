@@ -5,7 +5,7 @@ import header2 from "../assets/header-2.jpg";
 
 const Hero = () => {
   return (
-    <div className="font-figtree bg-[#FFFFFF] py-20 px-5">
+    <div className="font-figtree bg-[#FAFBFE] py-20 px-5">
       <div className="max-w-screen-xl mx-auto flex md:flex-row flex-col-reverse justify-between items-center px-5">
         <div className="text-5xl font-semibold tracking-wider">
           <h1>Globally rated platfrom for </h1>
