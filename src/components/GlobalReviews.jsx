@@ -1,8 +1,10 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Glide from "@glidejs/glide";
 import ReviewCard from "./ReviewCard";
 
-const GlobalReviews = () => {
+const GlobalReviews = (props) => {
+  const [reviewsData, setReviewsData] = useState(props.dataset.reviewsData)
+
   useEffect(() => {
     const slider = new Glide(".glide-01", {
       type: "carousel",
@@ -41,7 +43,11 @@ const GlobalReviews = () => {
           {/*    <!-- Slides --> */}
           <div className="overflow-hidden" data-glide-el="track">
             <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
-              <ReviewCard />
+              {reviewsData.map(item => (
+                <li key={item.reviewTitle}>
+                  <ReviewCard data={item} />
+                </li>
+              ))}
             </ul>
           </div>
 

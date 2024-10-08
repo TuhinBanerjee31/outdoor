@@ -7,19 +7,19 @@ import ImpactfulBrands from '../components/ImpactfulBrands'
 import GlobalRating from '../components/GlobalRating'
 import GlobalReviews from '../components/GlobalReviews'
 import SalarySlider from '../components/SalarySlider'
-import { googleData } from '../Data/googleData'
+import { tataMotorsData } from '../Data/tataMotorsData'
 
-const GoogleOverview = () => {
+const TataMotorsOverview = () => {
   return (
     <div>
       <Navbar />
 
       <div className="font-figtree bg-[#FFFFFF] min-h-screen">
-        <OverviewHeader dataset= {googleData} />
-        <OverviewAbout dataset= {googleData} />
+        <OverviewHeader dataset= {tataMotorsData} />
+        <OverviewAbout dataset= {tataMotorsData} />
         <ImpactfulBrands />
-        <GlobalRating dataset= {googleData} />
-        <GlobalReviews dataset= {googleData} />
+        <GlobalRating dataset= {tataMotorsData} />
+        <GlobalReviews dataset= {tataMotorsData} />
         <SalarySlider />
       </div>
 
@@ -28,4 +28,4 @@ const GoogleOverview = () => {
   )
 }
 
-export default GoogleOverview
+export default TataMotorsOverview

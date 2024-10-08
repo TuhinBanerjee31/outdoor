@@ -3,14 +3,14 @@ import Star from "../assets/star-icon.png";
 import male from "../assets/male.svg";
 import female from "../assets/female.svg";
 
-const GlobalRating = () => {
+const GlobalRating = (props) => {
   return (
     <div className="py-7 px-5 min-h-screen">
       <h2 className="text-2xl max-w-screen-2xl mx-auto font-semibold pl-2">
         Global Ratings
       </h2>
       <h5 className="text-base text-[#5E6BAE] max-w-screen-2xl mx-auto pl-2">
-        Based on 1.8k ratings
+        Based on {props.dataset.totalReviewCount} ratings
       </h5>
 
       <div className="max-w-screen-2xl mx-auto flex justify-between flex-col lg:flex-row border-2 rounded-xl shadow-md p-5 my-5">
@@ -18,7 +18,7 @@ const GlobalRating = () => {
           <div className="flex items-center mb-4">
             <span className="bg-[#5ba829] text-white px-2 py-[2px] rounded-md flex items-center gap-1">
               <img src={Star} alt="..." className="h-3 w-auto" />
-              <p className="text-base">4.4</p>
+              <p className="text-base">{props.dataset.rating}</p>
             </span>
             <div className="ml-4 text-lg text-black font-bold">
               Overall Rating
@@ -32,7 +32,7 @@ const GlobalRating = () => {
                   <div className="h-full bg-green-500 rounded-lg w-[80%]"></div>
                 </div>
               </div>
-              <span className="text-sm text-gray-600">1.2k</span>
+              <span className="text-sm text-gray-600">{props.dataset.forStars[0]}</span>
             </div>
 
             <div className="flex items-center justify-between mt-1">
@@ -42,7 +42,7 @@ const GlobalRating = () => {
                   <div className="h-full bg-green-400 rounded-lg w-[30%]"></div>
                 </div>
               </div>
-              <span className="text-sm text-gray-600">344</span>
+              <span className="text-sm text-gray-600">{props.dataset.forStars[1]}</span>
             </div>
 
             <div className="flex items-center justify-between mt-1">
@@ -52,7 +52,7 @@ const GlobalRating = () => {
                   <div className="h-full bg-yellow-400 rounded-lg w-[10%]"></div>
                 </div>
               </div>
-              <span className="text-sm text-gray-600">124</span>
+              <span className="text-sm text-gray-600">{props.dataset.forStars[2]}</span>
             </div>
 
             <div className="flex items-center justify-between mt-1">
@@ -62,7 +62,7 @@ const GlobalRating = () => {
                   <div className="h-full bg-orange-400 rounded-lg w-[5%]"></div>
                 </div>
               </div>
-              <span className="text-sm text-gray-600">43</span>
+              <span className="text-sm text-gray-600">{props.dataset.forStars[3]}</span>
             </div>
 
             <div className="flex items-center justify-between mt-1">
@@ -72,7 +72,7 @@ const GlobalRating = () => {
                   <div className="h-full bg-red-400 rounded-lg w-[10%]"></div>
                 </div>
               </div>
-              <span className="text-sm text-gray-600">72</span>
+              <span className="text-sm text-gray-600">{props.dataset.forStars[4]}</span>
             </div>
           </div>
         </div>
@@ -131,19 +131,19 @@ const GlobalRating = () => {
 
       <div className="max-w-screen-2xl mx-auto flex lg:flex-row flex-col justify-between gap-5">
         <div className="lg:w-[50vw] w-full mx-auto bg-white p-6 border-2 shadow-lg rounded-lg">
-          <h2 className="text-lg font-bold">Gender Based Ratings at Google</h2>
-          <p className="text-sm text-gray-500 mb-4">based on 1.5k reviews</p>
+          <h2 className="text-lg font-bold">Gender Based Ratings at {props.dataset.title}</h2>
+          <p className="text-sm text-gray-500 mb-4">based on {props.dataset.totalReviewCount} reviews</p>
 
           {/* <!-- Women's Rating Section --> */}
           <div className="flex items-center justify-between p-4 bg-pink-50 rounded-lg mb-4 border border-pink-200">
             <div>
               <div className="flex items-center space-x-2 text-lg font-semibold">
                 <span className="text-green-500">★</span>
-                <span>4.4</span>
-                <span className="text-gray-700">Rated by 350 Women</span>
+                <span>{props.dataset.womensRating[0]}</span>
+                <span className="text-gray-700">Rated by {props.dataset.womensRating[1]} Women</span>
               </div>
               <p className="text-sm text-gray-600">
-                Rated 4.4 for Company Culture and 4.3 for Work-Life Balance
+                Rated {props.dataset.otherFour[0]} for Company Culture and {props.dataset.otherFour[1]} for Work-Life Balance
               </p>
             </div>
             <div className="block">
@@ -156,11 +156,11 @@ const GlobalRating = () => {
             <div>
               <div className="flex items-center space-x-2 text-lg font-semibold">
                 <span className="text-green-500">★</span>
-                <span>4.5</span>
-                <span className="text-gray-700">Rated by 1.1k Men</span>
+                <span>{props.dataset.mensRating[0]}</span>
+                <span className="text-gray-700">Rated by {props.dataset.mensRating[1]} Men</span>
               </div>
               <p className="text-sm text-gray-600">
-                Rated 4.5 for Company Culture and 4.5 for Salary & Benefits
+                Rated {props.dataset.otherFour[2]} for Company Culture and {props.dataset.otherFour[3]} for Salary & Benefits
               </p>
             </div>
             <div className="block">
@@ -171,9 +171,9 @@ const GlobalRating = () => {
 
         <div className="lg:w-[40vw] w-full mx-auto bg-white border-2 shadow-lg rounded-lg p-6">
           {/* <!-- Title --> */}
-          <h2 className="text-lg font-semibold">Work Policy at Google</h2>
+          <h2 className="text-lg font-semibold">Work Policy at {props.dataset.title}</h2>
           <p className="text-gray-500 text-sm mb-6">
-            based on 306 reviews in last 6 months
+            based on {props.dataset.workPolicyExtraData[0]} reviews in last {props.dataset.workPolicyExtraData[1]} months
           </p>
 
           {/* <!-- Policy Options --> */}
@@ -185,10 +185,10 @@ const GlobalRating = () => {
                   <span>🏢</span>
                   <span>Hybrid</span>
                 </span>
-                <span className="text-gray-600 font-semibold">36%</span>
+                <span className="text-gray-600 font-semibold">{props.dataset.workPolicyData[0]}%</span>
               </div>
               <div className="w-full bg-gray-200 rounded-full h-2.5 mt-2">
-                <div className="bg-blue-500 h-2.5 rounded-full w-[36%]"></div>
+                <div className={`bg-blue-500 h-2.5 rounded-full w-[${props.dataset.workPolicyData[0]}%]`}></div>
               </div>
             </div>
 
@@ -199,10 +199,10 @@ const GlobalRating = () => {
                   <span>🏠</span>
                   <span>Permanent work from home</span>
                 </span>
-                <span className="text-gray-600 font-semibold">34%</span>
+                <span className="text-gray-600 font-semibold">{props.dataset.workPolicyData[1]}%</span>
               </div>
               <div className="w-full bg-gray-200 rounded-full h-2.5 mt-2">
-                <div className="bg-blue-500 h-2.5 rounded-full w-[34%]"></div>
+                <div className={`bg-blue-500 h-2.5 rounded-full w-[${props.dataset.workPolicyData[1]}%]`}></div>
               </div>
             </div>
 
@@ -213,10 +213,10 @@ const GlobalRating = () => {
                   <span>🏬</span>
                   <span>Work from office</span>
                 </span>
-                <span className="text-gray-600 font-semibold">30%</span>
+                <span className="text-gray-600 font-semibold">{props.dataset.workPolicyData[2]}%</span>
               </div>
               <div className="w-full bg-gray-200 rounded-full h-2.5 mt-2">
-                <div className="bg-blue-500 h-2.5 rounded-full w-[30%]"></div>
+                <div className={`bg-blue-500 h-2.5 rounded-full w-[${props.dataset.workPolicyData[2]}%]`}></div>
               </div>
             </div>
           </div>

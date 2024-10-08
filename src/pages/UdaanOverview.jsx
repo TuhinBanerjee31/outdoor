@@ -7,19 +7,19 @@ import ImpactfulBrands from '../components/ImpactfulBrands'
 import GlobalRating from '../components/GlobalRating'
 import GlobalReviews from '../components/GlobalReviews'
 import SalarySlider from '../components/SalarySlider'
-import { googleData } from '../Data/googleData'
+import { udaanData } from '../Data/udaanData'
 
-const GoogleOverview = () => {
+const UdaanOverview = () => {
   return (
     <div>
       <Navbar />
 
       <div className="font-figtree bg-[#FFFFFF] min-h-screen">
-        <OverviewHeader dataset= {googleData} />
-        <OverviewAbout dataset= {googleData} />
+        <OverviewHeader dataset= {udaanData} />
+        <OverviewAbout dataset= {udaanData} />
         <ImpactfulBrands />
-        <GlobalRating dataset= {googleData} />
-        <GlobalReviews dataset= {googleData} />
+        <GlobalRating dataset= {udaanData} />
+        <GlobalReviews dataset= {udaanData} />
         <SalarySlider />
       </div>
 
@@ -28,4 +28,4 @@ const GoogleOverview = () => {
   )
 }
 
-export default GoogleOverview
+export default UdaanOverview

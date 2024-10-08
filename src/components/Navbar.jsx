@@ -1,7 +1,11 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { BellIcon } from "@heroicons/react/24/outline";
 
 const Navbar = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   return (
     <nav className="font-figtree bg-[#FAFBFE]">
       <div className="flex items-center justify-between px-6 py-4">
