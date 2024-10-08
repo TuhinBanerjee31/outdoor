@@ -42,7 +42,7 @@ export const sliderData = [
         rating: "4.1",
         companyLogo: "https://static.ambitionbox.com/alpha/company/photos/logos/asianpaints.jpg",
         companyImage: "https://static.ambitionbox.com/assets/v2/images/rs:fill:900:600/bG9jYWw6Ly8vY29tcGFueV8zNDYvcGhvdG9zL2Rpc3BsYXkvZmQ4YjRkZTA4MWJmZjcwZDIzNDZkNzBkNWI4NzgyYzQzZjJkZGVjNy5qcGc=.webp",
-        redirectLink: "asain-paints-overview"
+        redirectLink: "asian-paints-overview"
     },
     {
         id: 6,

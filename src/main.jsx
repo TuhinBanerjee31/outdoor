@@ -11,6 +11,14 @@ import {
 } from "react-router-dom";
 import Layout from "./Layout.jsx";
 import GoogleOverview from "./pages/GoogleOverview.jsx";
+import UberOverview from "./pages/UberOverview.jsx";
+import TataMotorsOverview from "./pages/TataMotorsOverview.jsx";
+import DellOverview from "./pages/DellOverview.jsx";
+import AsianPaintsOverview from "./pages/AsianPaintsOverview.jsx";
+import BlackBuckOverview from "./pages/BlackBuckOverview.jsx";
+import AccentureOverview from "./pages/AccentureOverview.jsx";
+import UdaanOverview from "./pages/UdaanOverview.jsx";
+import DeloitteOverview from "./pages/DeloitteOverview.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -18,6 +26,14 @@ const router = createBrowserRouter(
       <Route index element={<App />} />{" "}
       {/* Use 'index' for the default route */}
       <Route path="google-overview" element={<GoogleOverview />} />
+      <Route path="uber-overview" element={<UberOverview />} />
+      <Route path="tata-motors-overview" element={<TataMotorsOverview />} />
+      <Route path="dell-overview" element={<DellOverview />} />
+      <Route path="asian-paints-overview" element={<AsianPaintsOverview />} />
+      <Route path="blackbuck-overview" element={<BlackBuckOverview />} />
+      <Route path="accenture-overview" element={<AccentureOverview />} />
+      <Route path="udaan-overview" element={<UdaanOverview />} />
+      <Route path="deloitte-overview" element={<DeloitteOverview />} />
     </Route>
   )
 );

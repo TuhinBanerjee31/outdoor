@@ -7,19 +7,19 @@ import ImpactfulBrands from '../components/ImpactfulBrands'
 import GlobalRating from '../components/GlobalRating'
 import GlobalReviews from '../components/GlobalReviews'
 import SalarySlider from '../components/SalarySlider'
-import { googleData } from '../Data/googleData'
+import { deloitteData } from '../Data/deloitteData'
 
-const GoogleOverview = () => {
+const DeloitteOverview = () => {
   return (
     <div>
       <Navbar />
 
       <div className="font-figtree bg-[#FFFFFF] min-h-screen">
-        <OverviewHeader dataset= {googleData} />
-        <OverviewAbout dataset= {googleData} />
+        <OverviewHeader dataset= {deloitteData} />
+        <OverviewAbout dataset= {deloitteData} />
         <ImpactfulBrands />
-        <GlobalRating dataset= {googleData} />
-        <GlobalReviews dataset= {googleData} />
+        <GlobalRating dataset= {deloitteData} />
+        <GlobalReviews dataset= {deloitteData} />
         <SalarySlider />
       </div>
 
@@ -28,4 +28,4 @@ const GoogleOverview = () => {
   )
 }
 
-export default GoogleOverview
+export default DeloitteOverview
