@@ -19,6 +19,8 @@ import BlackBuckOverview from "./pages/BlackBuckOverview.jsx";
 import AccentureOverview from "./pages/AccentureOverview.jsx";
 import UdaanOverview from "./pages/UdaanOverview.jsx";
 import DeloitteOverview from "./pages/DeloitteOverview.jsx";
+import Companies from "./pages/Companies.jsx";
+import Reviews from "./pages/Reviews.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -34,6 +36,8 @@ const router = createBrowserRouter(
       <Route path="accenture-overview" element={<AccentureOverview />} />
       <Route path="udaan-overview" element={<UdaanOverview />} />
       <Route path="deloitte-overview" element={<DeloitteOverview />} />
+      <Route path="companies" element={<Companies />} />
+      <Route path="reviews" element={<Reviews />} />
     </Route>
   )
 );

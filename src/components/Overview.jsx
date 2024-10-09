@@ -9,6 +9,7 @@ import Glide from "@glidejs/glide";
 import ImageCard from "./ImageCard";
 import {sliderData} from "../Data/sliderData";
 import './extra.css'
+import { Link } from "react-router-dom";
 
 const Overview = () => {
   useEffect(() => {
@@ -147,7 +148,7 @@ const Overview = () => {
       </div>
 
       <div className="flex justify-center">
-      <button className="button-29">View all companies</button>
+      <Link to={'/companies'} className="button-29">View all companies</Link>
       </div>
     </div>
   );
