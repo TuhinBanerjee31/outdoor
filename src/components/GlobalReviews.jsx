@@ -35,7 +35,7 @@ const GlobalReviews = (props) => {
   return (
     <div className="py-20">
       <h2 className="text-2xl max-w-screen-2xl mx-auto font-semibold pl-2">
-        Global Reviews
+        {props.dataset.title} Reviews
       </h2>
 
       <div className="max-w-screen-2xl mx-auto">

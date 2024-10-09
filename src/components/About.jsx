@@ -3,6 +3,7 @@ import about1 from "../assets/about_ill_1.svg";
 import about2 from "../assets/about_ill_2.svg";
 import about3 from "../assets/about_ill_3.svg";
 import './extra.css'
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -21,7 +22,7 @@ const About = () => {
           <h1 className="text-5xl font-semibold tracking-wider text-right">
             Read company reviews to avoid career mistakes
           </h1>
-          <button className="button-29">Explore Company Reviews</button>
+          <Link to={'/reviews'} className="button-29">Explore Company Reviews</Link>
         </div>
       </div>
 
@@ -47,7 +48,7 @@ const About = () => {
           <h1 className="text-5xl font-semibold tracking-wider text-right">
           Find out all there is to know about the company you like
           </h1>
-          <button className="button-29">Discover the Information</button>
+          <Link to={'/companies'} className="button-29">Discover the Information</Link>
         </div>
       </div>
     </div>
