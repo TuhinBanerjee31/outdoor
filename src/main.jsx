@@ -21,6 +21,8 @@ import UdaanOverview from "./pages/UdaanOverview.jsx";
 import DeloitteOverview from "./pages/DeloitteOverview.jsx";
 import Companies from "./pages/Companies.jsx";
 import Reviews from "./pages/Reviews.jsx";
+import Community from "./pages/Community.jsx";
+import ContactUs from "./pages/ContactUs.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -38,6 +40,8 @@ const router = createBrowserRouter(
       <Route path="deloitte-overview" element={<DeloitteOverview />} />
       <Route path="companies" element={<Companies />} />
       <Route path="reviews" element={<Reviews />} />
+      <Route path="community" element={<Community />} />
+      <Route path="contact-us" element={<ContactUs />} />
     </Route>
   )
 );

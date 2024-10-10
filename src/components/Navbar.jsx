@@ -20,13 +20,13 @@ const Navbar = () => {
         </Link>
 
         <div className="flex items-center justify-center gap-3">
-        <button type="button" className="text-white bg-[#3655FF] focus:outline-none font-medium rounded-full text-sm px-6 py-2 text-center">Contact Us</button>
+        <Link to={"/contact-us"} className="text-white bg-[#3655FF] focus:outline-none font-medium rounded-full text-sm px-6 py-2 text-center">Contact Us</Link>
         <BellIcon class="h-7 w-7 text-gray-900" />
         </div>
       </div>
 
       <div className="flex gap-7 bg-[#F6F7FE] px-7 py-2">
-        <Link to={""} className="cursor-pointer tracking-wider">Community</Link>
+        <Link to={"/community"} className="cursor-pointer tracking-wider">Community</Link>
         <Link to={"/reviews"} className="cursor-pointer tracking-wider">Reviews</Link>
         <Link to={"/companies"} className="cursor-pointer tracking-wider">Companies</Link>
         <Link to={""} className="cursor-pointer tracking-wider">Salaries</Link>
