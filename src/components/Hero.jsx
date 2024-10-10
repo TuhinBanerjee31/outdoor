@@ -2,6 +2,7 @@ import React from "react";
 import heroImage from "../assets/header_ill.svg";
 import Typewriter from "typewriter-effect";
 import header2 from "../assets/header-2.jpg";
+import SiecorpLogo from "../assets/siecorp_logo.png";
 
 const Hero = () => {
   return (
@@ -27,7 +28,7 @@ const Hero = () => {
         <img src={heroImage} alt="..." className="h-80 py-7" />
       </div>
 
-      <div className="relative transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 bg-blue-800 h-52 mt-6 rounded-lg cursor-pointer flex items-center justify-center overflow-hidden max-w-screen-xl mx-auto">
+      <div className="relative transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 bg-gray-800 border-2 shadow-lg h-40 mt-6 rounded-lg cursor-pointer flex items-center justify-center overflow-hidden max-w-screen-md mx-auto">
         {/* <!-- Background Image --> */}
         <div className="absolute inset-0">
           {/* <!-- Add the background image here --> */}
@@ -39,15 +40,22 @@ const Hero = () => {
         </div>
 
         {/* <!-- Content --> */}
-        <div className="relative z-10 text-center px-8">
-          {/* <!-- Title --> */}
-          <h1 className="text-white text-3xl font-semibold mb-4 tracking-wider">
-            Anonymous career talk with real professionals
-          </h1>
-          {/* <!-- Button --> */}
-          <button className="bg-white text-blue-800 font-semibold tracking-wider py-2 px-6 rounded shadow-md hover:bg-gray-100">
-            Join the conversation
-          </button>
+        <div className="relative z-10 px-8">
+          <div className="flex gap-4 items-center">
+            <img src={SiecorpLogo} alt="..." className="h-32 w-auto" />
+
+            <div className="text-left self-end">
+              <h1 className="text-white text-3xl font-semibold tracking-wider">SIECORP</h1>
+              <h1 className="text-white text-2xl font-semibold mb-4 tracking-wider">
+                Most Impactful Brand Of The Year
+              </h1>
+            </div>
+
+            {/* <!-- Button --> */}
+            {/* <button className="bg-white text-blue-800 font-semibold tracking-wider py-2 px-6 rounded shadow-md hover:bg-gray-100">
+              Join the conversation
+            </button> */}
+          </div>
         </div>
       </div>
     </div>
