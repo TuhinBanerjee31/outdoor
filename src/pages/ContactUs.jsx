@@ -8,7 +8,7 @@ const ContactUs = () => {
     <div>
       <Navbar />
       <div className="min-h-screen flex justify-center items-center px-5 py-10">
-        <div className="font-[sans-serif] max-w-6xl mx-auto relative bg-white border-2 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-3xl overflow-hidden mt-4">
+        <div className="font-figtree max-w-6xl mx-auto relative bg-white border-2 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-3xl overflow-hidden mt-4">
           <div className="absolute -bottom-6 -left-6 w-20 h-20 rounded-full bg-blue-400"></div>
           <div className="absolute -top-6 -right-6 w-20 h-20 rounded-full bg-blue-400"></div>
 
