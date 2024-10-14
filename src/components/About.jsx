@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <div className="font-figtree bg-[#FFFFFF] min-h-screen py-10">
-      <h2 className="text-center text-3xl font-semibold">Explore OutDoor🔎</h2>
+      <h2 className="text-center text-3xl font-semibold">Explore WorkSearch🔎</h2>
       <h5 className="text-center text-lg py-2">
         Globally renowned platform for company reviews, salaries and more!
       </h5>
@@ -35,7 +35,7 @@ const About = () => {
           <h1 className="text-5xl font-semibold tracking-wider text-right">
           Explore salary insights of several companies
           </h1>
-          <button className="button-29">Explore Insights</button>
+          <Link to={"/salaries"} className="button-29">Explore Insights</Link>
         </div>
       </div>
 
