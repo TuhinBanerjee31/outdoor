@@ -16,7 +16,7 @@ const Navbar = () => {
             alt="..."
             className="h-8 w-auto"
           />
-          <h3 className="font-semibold text-3xl">OutDoor</h3>
+          <h3 className="font-semibold text-3xl">WorkSearch</h3>
         </Link>
 
         <div className="flex items-center justify-center gap-3">
@@ -29,7 +29,7 @@ const Navbar = () => {
         <Link to={"/community"} className="cursor-pointer tracking-wider">Community</Link>
         <Link to={"/reviews"} className="cursor-pointer tracking-wider">Reviews</Link>
         <Link to={"/companies"} className="cursor-pointer tracking-wider">Companies</Link>
-        <Link to={""} className="cursor-pointer tracking-wider">Salaries</Link>
+        <Link to={"/salaries"} className="cursor-pointer tracking-wider">Salaries</Link>
       </div>
     </nav>
   );

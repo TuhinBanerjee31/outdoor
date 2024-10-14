@@ -11,9 +11,9 @@ const Policy = () => {
           Privacy Policy
         </h2>
         <h5 className="text-lg max-w-screen-xl mx-auto mb-20">
-          At OutDoor, one of our main priorities is the privacy of our
+          At WorkSearch, one of our main priorities is the privacy of our
           visitors. This Privacy Policy document contains types of information
-          that is collected and recorded by OutDoor and how we use it.
+          that is collected and recorded by WorkSearch and how we use it.
           If you have additional questions or require more information about our
           Privacy Policy, do not hesitate to contact us by visit our Contact
           Page.
@@ -21,7 +21,7 @@ const Policy = () => {
 
         <h2 className="text-center mb-5 text-3xl font-semibold">Log Files</h2>
         <h5 className="text-lg max-w-screen-xl mx-auto mb-20">
-          OutDoor follows a standard procedure of using log files.
+          WorkSearch follows a standard procedure of using log files.
           These files log visitors when they visit websites. All hosting
           companies do this and a part of hosting services’ analytics. The
           information collected by log files include internet protocol (IP)
@@ -37,7 +37,7 @@ const Policy = () => {
           Cookies and Web Beacons
         </h2>
         <h5 className="text-lg max-w-screen-xl mx-auto mb-20">
-          Like any other website, OutDoor uses ‘cookies’. These cookies
+          Like any other website, WorkSearch uses ‘cookies’. These cookies
           are used to store information including visitors’ preferences, and the
           pages on the website that the visitor accessed or visited. The
           information is used to optimize the users’ experience by customizing
@@ -49,7 +49,7 @@ const Policy = () => {
           Third Party Privacy Policies
         </h2>
         <h5 className="text-lg max-w-screen-xl mx-auto mb-20">
-          OutDoor Privacy Policy does not apply to other advertisers or
+          WorkSearch Privacy Policy does not apply to other advertisers or
           websites. Thus, we are advising you to consult the respective Privacy
           Policies of these third-party ad servers for more detailed
           information. It may include their practices and instructions about how
@@ -68,7 +68,7 @@ const Policy = () => {
           Another part of our priority is adding protection for children while
           using the internet. We encourage parents and guardians to observe,
           participate in, and/or monitor and guide their online activity.
-          OutDoor does not knowingly collect any Personal Identifiable
+          WorkSearch does not knowingly collect any Personal Identifiable
           Information from children under the age of 13. If you think that your
           child provided this kind of information on our website, we strongly
           encourage you to contact us immediately and we will do our best
@@ -81,7 +81,7 @@ const Policy = () => {
         <h5 className="text-lg max-w-screen-xl mx-auto mb-20">
           This Privacy Policy applies only to our online activities and is valid
           for visitors to our website with regards to the information that they
-          shared and/or collect in OutDoor. This policy is not
+          shared and/or collect in WorkSearch. This policy is not
           applicable to any information collected offline or via channels other
           than this website.
         </h5>

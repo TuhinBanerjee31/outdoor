@@ -32,7 +32,7 @@ const Testimonial = () => {
       )}
     >
       <div className="bg-[#F2F2F2] w-[100%] min-h-[60vh] px-10 py-6 flex flex-col justify-around">
-        <h3 className="text-3xl tracking-wider leading-relaxed flex flex-wrap">“I have used OutDoor multiple times in the past. Whenever I apply to a company, OutDoor is my go-to place.”</h3>
+        <h3 className="text-3xl tracking-wider leading-relaxed flex flex-wrap">“I have used WorkSearch multiple times in the past. Whenever I apply to a company, WorkSearch is my go-to place.”</h3>
         <h3 className="text-xl font-semibold">Manpreet Bedi</h3>
       </div>
 
@@ -47,12 +47,12 @@ const Testimonial = () => {
       </div>
 
       <div className="bg-[#F2F2F2] w-[100%] min-h-[60vh] px-10 py-6 flex flex-col justify-around">
-      <h3 className="text-3xl tracking-wider leading-relaxed flex flex-wrap">“All of the reviews offered are genuine, non-biased, and unpaid. You receive an honest review from people on OutDoor based on their experience.”</h3>
+      <h3 className="text-3xl tracking-wider leading-relaxed flex flex-wrap">“All of the reviews offered are genuine, non-biased, and unpaid. You receive an honest review from people on WorkSearch based on their experience.”</h3>
       <h3 className="text-xl font-semibold">Khushi Singh</h3>
       </div>
 
       <div className="bg-[#F2F2F2] w-[100%] min-h-[60vh] px-10 py-6 flex flex-col justify-around">
-      <h3 className="text-3xl tracking-wider leading-relaxed flex flex-wrap">“It's a great job done by OutDoor which helps job seekers for better company and management behaviour.”</h3>
+      <h3 className="text-3xl tracking-wider leading-relaxed flex flex-wrap">“It's a great job done by WorkSearch which helps job seekers for better company and management behaviour.”</h3>
       <h3 className="text-xl font-semibold">Yash Sharma</h3>
       </div>
     </Carousel>

@@ -12,10 +12,10 @@ const Footer = () => {
                 <img
                   src="https://static.ambitionbox.com/static/logo.svg"
                   className="h-8 me-3"
-                  alt="OutDoor Logo"
+                  alt="WorkSearch Logo"
                 />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                  OutDoor
+                  WorkSearch
                 </span>
               </Link>
             </div>
@@ -73,7 +73,7 @@ const Footer = () => {
             <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
               © 2023{" "}
               <Link to={"/"} className="hover:underline">
-                OutDoor™
+                WorkSearch™
               </Link>
               . All Rights Reserved.
             </span>

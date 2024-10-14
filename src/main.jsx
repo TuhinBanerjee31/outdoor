@@ -24,6 +24,7 @@ import Reviews from "./pages/Reviews.jsx";
 import Community from "./pages/Community.jsx";
 import ContactUs from "./pages/ContactUs.jsx";
 import Policy from "./pages/Policy.jsx";
+import Salaries from "./pages/Salaries.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -44,6 +45,7 @@ const router = createBrowserRouter(
       <Route path="community" element={<Community />} />
       <Route path="contact-us" element={<ContactUs />} />
       <Route path="privacy-policy" element={<Policy />} />
+      <Route path="salaries" element={<Salaries />} />
     </Route>
   )
 );
