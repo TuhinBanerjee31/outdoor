@@ -25,7 +25,7 @@ export const accentureData = {
     reviewsData: [
       {
         reviewTitle: "Consultant in Bangalore",
-        field: "Consulting Department",
+        feild: "Consulting Department",
         rating: "5.0",
         time: "posted on 22 Sep 2024",
         likes: "Dynamic projects, supportive culture, and opportunities for growth",
@@ -33,7 +33,7 @@ export const accentureData = {
       },
       {
         reviewTitle: "Software Engineer in Hyderabad",
-        field: "Technology Department",
+        feild: "Technology Department",
         rating: "4.5",
         time: "posted on 05 Oct 2024",
         likes: "Cutting-edge technology, great work environment, and flexible hours",
@@ -41,7 +41,7 @@ export const accentureData = {
       },
       {
         reviewTitle: "Project Manager in Gurgaon",
-        field: "Project Management Department",
+        feild: "Project Management Department",
         rating: "4.0",
         time: "posted on 12 Jul 2024",
         likes: "Good salary, diverse team, and strong leadership",
@@ -49,7 +49,7 @@ export const accentureData = {
       },
       {
         reviewTitle: "Business Analyst in Pune",
-        field: "Analytics Department",
+        feild: "Analytics Department",
         rating: "3.8",
         time: "posted on 15 Jun 2024",
         likes: "Interesting data projects and great learning opportunities",

@@ -25,7 +25,7 @@ export const deloitteData = {
     reviewsData: [
       {
         reviewTitle: "Consultant in Bangalore",
-        field: "Consulting Department",
+        feild: "Consulting Department",
         rating: "5.0",
         time: "posted on 15 Sep 2024",
         likes: "Challenging work, supportive team, and great learning opportunities",
@@ -33,7 +33,7 @@ export const deloitteData = {
       },
       {
         reviewTitle: "Tax Associate in Gurgaon",
-        field: "Tax Department",
+        feild: "Tax Department",
         rating: "4.5",
         time: "posted on 01 Oct 2024",
         likes: "Good work-life balance, competitive salary, and learning environment",
@@ -41,7 +41,7 @@ export const deloitteData = {
       },
       {
         reviewTitle: "Audit Manager in Mumbai",
-        field: "Audit Department",
+        feild: "Audit Department",
         rating: "4.0",
         time: "posted on 20 Jul 2024",
         likes: "Strong focus on professional development and career growth",
@@ -49,7 +49,7 @@ export const deloitteData = {
       },
       {
         reviewTitle: "Risk Advisory Analyst in Hyderabad",
-        field: "Risk Advisory Department",
+        feild: "Risk Advisory Department",
         rating: "3.8",
         time: "posted on 10 Jun 2024",
         likes: "Interesting projects and collaborative environment",

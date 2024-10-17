@@ -17,7 +17,7 @@ const ImageCard = (props) => {
           <div className="flex items-center gap-2">
             <img
               src={props.data.companyLogo}
-              className="h-auto w-12 border-2 rounded-lg"
+              className="h-auto w-14 border-2 p-1 rounded-lg"
             />
 
             <div>

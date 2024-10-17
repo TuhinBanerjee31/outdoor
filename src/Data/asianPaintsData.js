@@ -25,7 +25,7 @@ export const asianPaintsData = {
     reviewsData: [
       {
         reviewTitle: "Marketing Executive in Mumbai",
-        field: "Marketing Department",
+        feild: "Marketing Department",
         rating: "5.0",
         time: "posted on 22 Sep 2024",
         likes: "Dynamic work environment, great team culture, and good work-life balance",
@@ -33,7 +33,7 @@ export const asianPaintsData = {
       },
       {
         reviewTitle: "Sales Manager in Bangalore",
-        field: "Sales Department",
+        feild: "Sales Department",
         rating: "4.5",
         time: "posted on 01 Oct 2024",
         likes: "Strong brand reputation, good incentives, and supportive management",
@@ -41,7 +41,7 @@ export const asianPaintsData = {
       },
       {
         reviewTitle: "Production Engineer in Chennai",
-        field: "Manufacturing Department",
+        feild: "Manufacturing Department",
         rating: "4.0",
         time: "posted on 15 Jul 2024",
         likes: "Innovative production processes and skilled colleagues",
@@ -49,7 +49,7 @@ export const asianPaintsData = {
       },
       {
         reviewTitle: "Quality Assurance in Gurgaon",
-        field: "Quality Control Department",
+        feild: "Quality Control Department",
         rating: "3.8",
         time: "posted on 05 Jun 2024",
         likes: "Focus on quality and continuous improvement",

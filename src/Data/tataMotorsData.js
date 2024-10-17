@@ -25,7 +25,7 @@ export const tataMotorsData = {
     reviewsData: [
       {
         reviewTitle: "Design Engineer in Pune",
-        field: "Engineering Department",
+        feild: "Engineering Department",
         rating: "5.0",
         time: "posted on 15 Sep 2024",
         likes: "Great work culture, opportunities for growth, and innovative projects",
@@ -33,7 +33,7 @@ export const tataMotorsData = {
       },
       {
         reviewTitle: "Production Manager in Jamshedpur",
-        field: "Manufacturing Department",
+        feild: "Manufacturing Department",
         rating: "4.5",
         time: "posted on 01 Oct 2024",
         likes: "Challenging projects, skilled team, and competitive benefits",
@@ -41,7 +41,7 @@ export const tataMotorsData = {
       },
       {
         reviewTitle: "Sales Executive in Mumbai",
-        field: "Sales Department",
+        feild: "Sales Department",
         rating: "4.0",
         time: "posted on 10 Jul 2024",
         likes: "Good incentives and supportive team",
@@ -49,7 +49,7 @@ export const tataMotorsData = {
       },
       {
         reviewTitle: "Electric Vehicle Engineer in Bangalore",
-        field: "Electric Vehicles Department",
+        feild: "Electric Vehicles Department",
         rating: "3.5",
         time: "posted on 20 Jun 2024",
         likes: "Exciting technology, growth potential in the EV sector",

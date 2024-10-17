@@ -25,7 +25,7 @@ export const blackBuckData = {
     reviewsData: [
       {
         reviewTitle: "Software Engineer in Bangalore",
-        field: "Engineering Department",
+        feild: "Engineering Department",
         rating: "5.0",
         time: "posted on 10 Sep 2024",
         likes: "Dynamic work culture, opportunities for innovation, and great team",
@@ -33,7 +33,7 @@ export const blackBuckData = {
       },
       {
         reviewTitle: "Operations Manager in Gurgaon",
-        field: "Operations Department",
+        feild: "Operations Department",
         rating: "4.5",
         time: "posted on 22 Sep 2024",
         likes: "Supportive management, strong focus on employee development",
@@ -41,7 +41,7 @@ export const blackBuckData = {
       },
       {
         reviewTitle: "Business Development Executive in Mumbai",
-        field: "Sales Department",
+        feild: "Sales Department",
         rating: "4.0",
         time: "posted on 18 Jul 2024",
         likes: "Good incentives, flexible work hours, and strong team collaboration",
@@ -49,7 +49,7 @@ export const blackBuckData = {
       },
       {
         reviewTitle: "Data Analyst in Pune",
-        field: "Analytics Department",
+        feild: "Analytics Department",
         rating: "3.8",
         time: "posted on 30 Jun 2024",
         likes: "Interesting projects and data-driven approach",
