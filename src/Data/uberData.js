@@ -25,7 +25,7 @@ export const uberData = {
     reviewsData: [
       {
         reviewTitle: "Operations Manager in Bangalore",
-        field: "Operations Department",
+        feild: "Operations Department",
         rating: "5.0",
         time: "posted on 12 Sep 2024",
         likes: "Fast-paced work, great team, excellent perks",
@@ -33,7 +33,7 @@ export const uberData = {
       },
       {
         reviewTitle: "Software Engineer in San Francisco",
-        field: "Engineering Department",
+        feild: "Engineering Department",
         rating: "4.5",
         time: "posted on 01 Oct 2024",
         likes: "Innovative projects, smart colleagues, and flexible work environment",
@@ -41,7 +41,7 @@ export const uberData = {
       },
       {
         reviewTitle: "Customer Support in Gurgaon",
-        field: "Customer Service Department",
+        feild: "Customer Service Department",
         rating: "4.0",
         time: "posted on 05 Jul 2024",
         likes: "Supportive team and good work-life balance",
@@ -49,7 +49,7 @@ export const uberData = {
       },
       {
         reviewTitle: "Driver Partner in Mumbai",
-        field: "Driving Partner Network",
+        feild: "Driving Partner Network",
         rating: "3.5",
         time: "posted on 10 Jun 2024",
         likes: "Flexible work hours, earning potential based on effort",

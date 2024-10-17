@@ -25,7 +25,7 @@ export const udaanData = {
     reviewsData: [
       {
         reviewTitle: "Business Development Associate in Bangalore",
-        field: "Sales Department",
+        feild: "Sales Department",
         rating: "5.0",
         time: "posted on 25 Sep 2024",
         likes: "Dynamic environment, great team support, and flexible working hours",
@@ -33,7 +33,7 @@ export const udaanData = {
       },
       {
         reviewTitle: "Software Engineer in Mumbai",
-        field: "Engineering Department",
+        feild: "Engineering Department",
         rating: "4.5",
         time: "posted on 10 Oct 2024",
         likes: "Innovative projects, supportive culture, and opportunities to learn",
@@ -41,7 +41,7 @@ export const udaanData = {
       },
       {
         reviewTitle: "Warehouse Manager in Delhi",
-        field: "Operations Department",
+        feild: "Operations Department",
         rating: "4.0",
         time: "posted on 15 Jul 2024",
         likes: "Well-structured processes and strong focus on safety",
@@ -49,7 +49,7 @@ export const udaanData = {
       },
       {
         reviewTitle: "Marketing Executive in Pune",
-        field: "Marketing Department",
+        feild: "Marketing Department",
         rating: "3.8",
         time: "posted on 02 Jun 2024",
         likes: "Creative freedom and diverse projects",

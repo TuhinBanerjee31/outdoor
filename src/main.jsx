@@ -25,6 +25,11 @@ import Community from "./pages/Community.jsx";
 import ContactUs from "./pages/ContactUs.jsx";
 import Policy from "./pages/Policy.jsx";
 import Salaries from "./pages/Salaries.jsx";
+import SiecorpOverview from "./pages/SiecorpOverview.jsx";
+import KiewitOverview from "./pages/KiewitOverview.jsx";
+import LandtOverview from "./pages/LandtOverview.jsx";
+import TcsOverview from "./pages/TcsOverview.jsx";
+import HdfcBankOverview from "./pages/HdfcBankOverview.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -46,6 +51,11 @@ const router = createBrowserRouter(
       <Route path="contact-us" element={<ContactUs />} />
       <Route path="privacy-policy" element={<Policy />} />
       <Route path="salaries" element={<Salaries />} />
+      <Route path="siecorp-overview" element={<SiecorpOverview />} />
+      <Route path="kiewit-overview" element={<KiewitOverview />} />
+      <Route path="l-and-t-overview" element={<LandtOverview />} />
+      <Route path="tcs-overview" element={<TcsOverview />} />
+      <Route path="hdfc-bank-overview" element={<HdfcBankOverview  />} />
     </Route>
   )
 );

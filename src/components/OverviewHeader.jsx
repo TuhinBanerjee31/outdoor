@@ -9,7 +9,7 @@ const OverviewHeader = (props) => {
         <img
           src={props.dataset.logoImage}
           alt={props.dataset.title}
-          className="border-2"
+          className="border-2 h-20"
         />
 
         <div className="flex justify-between items-center py-2">

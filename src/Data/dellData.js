@@ -25,7 +25,7 @@ export const dellData = {
     reviewsData: [
       {
         reviewTitle: "Software Engineer in Bangalore",
-        field: "Software Development Department",
+        feild: "Software Development Department",
         rating: "5.0",
         time: "posted on 20 Sep 2024",
         likes: "Flexible work culture, great learning environment, supportive management",
@@ -33,7 +33,7 @@ export const dellData = {
       },
       {
         reviewTitle: "Technical Support in Hyderabad",
-        field: "Technical Support Department",
+        feild: "Technical Support Department",
         rating: "4.5",
         time: "posted on 01 Oct 2024",
         likes: "Work-from-home options, good benefits, and supportive team",
@@ -41,7 +41,7 @@ export const dellData = {
       },
       {
         reviewTitle: "Sales Manager in Gurgaon",
-        field: "Sales Department",
+        feild: "Sales Department",
         rating: "4.0",
         time: "posted on 12 Jul 2024",
         likes: "Competitive salary, strong brand, and great incentives",
@@ -49,7 +49,7 @@ export const dellData = {
       },
       {
         reviewTitle: "IT Consultant in Pune",
-        field: "IT Consulting Department",
+        feild: "IT Consulting Department",
         rating: "3.8",
         time: "posted on 05 Jun 2024",
         likes: "Diverse projects, talented colleagues, and learning opportunities",
