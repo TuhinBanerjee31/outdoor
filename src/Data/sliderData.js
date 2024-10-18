@@ -1,7 +1,7 @@
 import siecorpLogo from "../assets/siecorp_logo.png";
 import siecorpOffice from "../assets/siecorp_office.jpg";
 import kiewitLogo from "../assets/kiewit_logo.png";
-import kiewitOffice from "../assets/kiewit_Office.jpg";
+import kiewitOffice from "../assets/kiewit_office.jpg";
 
 export const sliderData = [
     {
