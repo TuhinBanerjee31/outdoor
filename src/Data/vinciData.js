@@ -1,4 +1,4 @@
-import vinciLogo from "../assets/Vinci_logo.png";
+import vinciLogo from "../assets/vinci_logo.png";
 
 export const vinciData = {
     logoImage: vinciLogo,

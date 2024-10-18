@@ -10,13 +10,13 @@ import hdfcBankOffice from "../assets/hdfcBank_office.jpg";
 import teleperformanceOffice from "../assets/teleperformance_Office.jpg"
 import axisBankOffice from "../assets/axisBank_Office.jpg";
 import axisBankLogo from "../assets/axisBank_logo.png";
-import jioOffice from "../assets/jio_Office.jpg";
-import vinciLogo from "../assets/Vinci_logo.png";
-import vinciOffice from "../assets/vinci_Office.jpg";
+import jioOffice from "../assets/jio_office.jpg";
+import vinciLogo from "../assets/vinci_logo.png";
+import vinciOffice from "../assets/vinci_office.jpg";
 import ibmOffice from "../assets/ibm_office.jpg"
 import relianceRetailOffice from "../assets/relianceRetail_Office.jpg"
-import cognizantOffice from "../assets/cognizant_Office.jpg"
-import ienergizerOffice from "../assets/ienergizer_Office.jpg"
+import cognizantOffice from "../assets/cognizant_office.jpg"
+import ienergizerOffice from "../assets/ienergizer_office.jpg"
 import iciciBankOffice from "../assets/iciciBank_office.jpg";
 import wiproOffice from "../assets/wipro_office.jpg";
 
