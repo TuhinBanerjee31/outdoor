@@ -30,6 +30,16 @@ import KiewitOverview from "./pages/KiewitOverview.jsx";
 import LandtOverview from "./pages/LandtOverview.jsx";
 import TcsOverview from "./pages/TcsOverview.jsx";
 import HdfcBankOverview from "./pages/HdfcBankOverview.jsx";
+import TeleperformanceOverview from "./pages/TeleperformanceOverview.jsx";
+import AxisBankOverview from "./pages/AxisBankOverview.jsx";
+import VinciOverview from "./pages/VinciOverview.jsx";
+import IbmOverview from "./pages/IbmOverview.jsx";
+import RelianceRetailOverview from "./pages/relianceRetailOverview.jsx";
+import CognizantOverview from "./pages/CognizantData.jsx";
+import IenergizerOverview from "./pages/IenergizerOverview.jsx";
+import IciciBankOverview from "./pages/IciciBankOverview.jsx";
+import WiproOverview from "./pages/WiproOverview.jsx";
+import JioOverview from "./pages/JioOverview.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -55,7 +65,17 @@ const router = createBrowserRouter(
       <Route path="kiewit-overview" element={<KiewitOverview />} />
       <Route path="l-and-t-overview" element={<LandtOverview />} />
       <Route path="tcs-overview" element={<TcsOverview />} />
-      <Route path="hdfc-bank-overview" element={<HdfcBankOverview  />} />
+      <Route path="hdfc-bank-overview" element={<HdfcBankOverview />} />
+      <Route path="teleperformance-overview" element={<TeleperformanceOverview />} />
+      <Route path="axis-bank-overview" element={<AxisBankOverview />} />
+      <Route path="vinci-overview" element={<VinciOverview />} />
+      <Route path="ibm-overview" element={<IbmOverview />} />
+      <Route path="reliance-retail-overview" element={<RelianceRetailOverview />} />
+      <Route path="cognizant-overview" element={<CognizantOverview />} />
+      <Route path="ienergizer-overview" element={<IenergizerOverview />} />
+      <Route path="icici-bank-overview" element={<IciciBankOverview />} />
+      <Route path="wipro-overview" element={<WiproOverview />} />
+      <Route path="jio-overview" element={<JioOverview />} />
     </Route>
   )
 );

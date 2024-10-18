@@ -1,5 +1,7 @@
+import tcsLogo from "../assets/tcs_logo.png";
+
 export const tcsData = {
-    logoImage: "https://static.ambitionbox.com/alpha/company/photos/logos/tcs.jpg",
+    logoImage: tcsLogo,
     title: "Tata Consultancy Services",
     rating: "3.7",
     totalReviewCount: "120k",

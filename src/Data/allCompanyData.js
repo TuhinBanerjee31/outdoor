@@ -4,10 +4,12 @@ import kiewitLogo from "../assets/kiewit_logo.png";
 import kiewitOffice from "../assets/kiewit_Office.jpg";
 import ltLogo from "../assets/l&t_logo.png";
 import ltOffice from "../assets/l&t_Office.jpg";
+import tcsLogo from "../assets/tcs_logo.png";
 import tcsOffice from "../assets/tcs_Office.webp";
 import hdfcBankOffice from "../assets/hdfcBank_office.jpg";
 import teleperformanceOffice from "../assets/teleperformance_Office.jpg"
 import axisBankOffice from "../assets/axisBank_Office.jpg";
+import axisBankLogo from "../assets/axisBank_logo.png";
 import jioOffice from "../assets/jio_Office.jpg";
 import vinciLogo from "../assets/Vinci_logo.png";
 import vinciOffice from "../assets/vinci_Office.jpg";
@@ -132,7 +134,7 @@ export const allCompanyData = [
         companyName: "TCS",
         companyType: "IT Services & Consulting",
         rating: "3.7",
-        companyLogo: "https://static.ambitionbox.com/alpha/company/photos/logos/tcs.jpg",
+        companyLogo: tcsLogo,
         companyImage: tcsOffice,
         redirectLink: "/tcs-overview"
     },
@@ -159,18 +161,9 @@ export const allCompanyData = [
         companyName: "Axis Bank",
         companyType: "Banking",
         rating: "3.8",
-        companyLogo: "https://static.ambitionbox.com/alpha/company/photos/logos/axis-bank.jpg",
+        companyLogo: axisBankLogo,
         companyImage: axisBankOffice,
         redirectLink: "/axis-bank-overview"
-    },
-    {
-        id: 18,
-        companyName: "Jio",
-        companyType: "Telecom",
-        rating: "3.9",
-        companyLogo: "https://static.ambitionbox.com/alpha/company/photos/logos/jio.jpg",
-        companyImage: jioOffice,
-        redirectLink: "/jio-overview"
     },
     {
         id: 18,
@@ -234,5 +227,14 @@ export const allCompanyData = [
         companyLogo: "https://static.ambitionbox.com/alpha/company/photos/logos/wipro.jpg",
         companyImage: wiproOffice,
         redirectLink: "/wipro-overview"
+    },
+    {
+        id: 25,
+        companyName: "Jio",
+        companyType: "Telecom",
+        rating: "3.9",
+        companyLogo: "https://static.ambitionbox.com/alpha/company/photos/logos/jio.jpg",
+        companyImage: jioOffice,
+        redirectLink: "/jio-overview"
     },
 ]
