@@ -34,7 +34,7 @@ import TeleperformanceOverview from "./pages/TeleperformanceOverview.jsx";
 import AxisBankOverview from "./pages/AxisBankOverview.jsx";
 import VinciOverview from "./pages/VinciOverview.jsx";
 import IbmOverview from "./pages/IbmOverview.jsx";
-import RelianceRetailOverview from "./pages/relianceRetailOverview.jsx";
+import RelianceRetailOverview from "./pages/RelianceRetailOverview.jsx";
 import CognizantOverview from "./pages/CognizantData.jsx";
 import IenergizerOverview from "./pages/IenergizerOverview.jsx";
 import IciciBankOverview from "./pages/IciciBankOverview.jsx";
