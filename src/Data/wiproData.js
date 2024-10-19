@@ -2,7 +2,7 @@ export const wiproData = {
     logoImage: "https://static.ambitionbox.com/alpha/company/photos/logos/wipro.jpg",
     title: "Wipro",
     rating: "3.8",
-    totalReviewCount: "130k",
+    totalReviewCount: "3.0k",
     followerCount: "1.5M",
     foundedIn: "1945",
     headquaters: "Bangalore, Karnataka",
@@ -25,7 +25,7 @@ export const wiproData = {
     reviewsData: [
       {
         reviewTitle: "Software Developer in Bangalore",
-        field: "IT Department",
+        feild: "IT Department",
         rating: "4.2",
         time: "posted on 12 Aug 2024",
         likes: "Diverse learning opportunities, flexible work environment, great leadership",
@@ -33,7 +33,7 @@ export const wiproData = {
       },
       {
         reviewTitle: "Project Manager in Hyderabad",
-        field: "Project Management Department",
+        feild: "Project Management Department",
         rating: "4.0",
         time: "posted on 25 Jul 2024",
         likes: "Challenging projects, supportive team, good work-life balance",
@@ -41,7 +41,7 @@ export const wiproData = {
       },
       {
         reviewTitle: "Business Analyst in Pune",
-        field: "Business Analytics Department",
+        feild: "Business Analytics Department",
         rating: "4.1",
         time: "posted on 05 Sep 2024",
         likes: "Collaborative work culture, access to cutting-edge technology, growth opportunities",
@@ -49,7 +49,7 @@ export const wiproData = {
       },
       {
         reviewTitle: "Consultant in Mumbai",
-        field: "Consulting Department",
+        feild: "Consulting Department",
         rating: "3.9",
         time: "posted on 18 Jun 2024",
         likes: "Opportunities for global exposure, innovative work, great colleagues",

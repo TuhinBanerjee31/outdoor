@@ -2,7 +2,7 @@ export const ienergizerData = {
     logoImage: "https://static.ambitionbox.com/alpha/company/photos/logos/ienergizer.jpg",
     title: "iEnergizer",
     rating: "3.7",
-    totalReviewCount: "20k",
+    totalReviewCount: "2.0k",
     followerCount: "150k",
     foundedIn: "2000",
     headquaters: "Noida, Uttar Pradesh",
@@ -25,7 +25,7 @@ export const ienergizerData = {
     reviewsData: [
       {
         reviewTitle: "Customer Service Executive in Noida",
-        field: "Customer Support Department",
+        feild: "Customer Support Department",
         rating: "4.0",
         time: "posted on 05 Sep 2024",
         likes: "Friendly work environment, decent benefits, good management support",
@@ -33,7 +33,7 @@ export const ienergizerData = {
       },
       {
         reviewTitle: "Technical Support Executive in Bangalore",
-        field: "Technical Support Department",
+        feild: "Technical Support Department",
         rating: "3.9",
         time: "posted on 22 Aug 2024",
         likes: "Opportunities for career growth, helpful team, flexible work hours",
@@ -41,7 +41,7 @@ export const ienergizerData = {
       },
       {
         reviewTitle: "Data Entry Operator in Gurgaon",
-        field: "Back Office Solutions",
+        feild: "Back Office Solutions",
         rating: "3.7",
         time: "posted on 12 Jul 2024",
         likes: "Good entry-level job, comfortable work environment, supportive team",
@@ -49,7 +49,7 @@ export const ienergizerData = {
       },
       {
         reviewTitle: "Healthcare Process Executive in Pune",
-        field: "Healthcare Services Department",
+        feild: "Healthcare Services Department",
         rating: "3.8",
         time: "posted on 15 Jun 2024",
         likes: "Good pay for the role, learning opportunities, well-organized team",

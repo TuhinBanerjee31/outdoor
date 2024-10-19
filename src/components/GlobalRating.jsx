@@ -25,50 +25,50 @@ const GlobalRating = (props) => {
             </div>
           </div>
           <div>
-            <div className="flex items-center justify-between">
+            <div className="flex items-center gap-4">
               <div className="flex items-center">
                 <span className="text-sm text-gray-600">5</span>
-                <div className="h-2 w-80 bg-gray-300 ml-3 rounded-lg">
+                <div className="h-2 md:w-80 w-64 bg-gray-300 ml-3 rounded-lg">
                   <div className="h-full bg-green-500 rounded-lg w-[80%]"></div>
                 </div>
               </div>
               <span className="text-sm text-gray-600">{props.dataset.forStars[0]}</span>
             </div>
 
-            <div className="flex items-center justify-between mt-1">
+            <div className="flex items-center gap-4 mt-1">
               <div className="flex items-center">
                 <span className="text-sm text-gray-600">4</span>
-                <div className="h-2 w-80 bg-gray-300 ml-3 rounded-lg">
+                <div className="h-2 md:w-80 w-64 bg-gray-300 ml-3 rounded-lg">
                   <div className="h-full bg-green-400 rounded-lg w-[30%]"></div>
                 </div>
               </div>
               <span className="text-sm text-gray-600">{props.dataset.forStars[1]}</span>
             </div>
 
-            <div className="flex items-center justify-between mt-1">
+            <div className="flex items-center gap-4 mt-1">
               <div className="flex items-center">
                 <span className="text-sm text-gray-600">3</span>
-                <div className="h-2 w-80 bg-gray-300 ml-3 rounded-lg">
+                <div className="h-2 md:w-80 w-64 bg-gray-300 ml-3 rounded-lg">
                   <div className="h-full bg-yellow-400 rounded-lg w-[10%]"></div>
                 </div>
               </div>
               <span className="text-sm text-gray-600">{props.dataset.forStars[2]}</span>
             </div>
 
-            <div className="flex items-center justify-between mt-1">
+            <div className="flex items-center gap-4 mt-1">
               <div className="flex items-center">
                 <span className="text-sm text-gray-600">2</span>
-                <div className="h-2 w-80 bg-gray-300 ml-3 rounded-lg">
+                <div className="h-2 md:w-80 w-64 bg-gray-300 ml-3 rounded-lg">
                   <div className="h-full bg-orange-400 rounded-lg w-[5%]"></div>
                 </div>
               </div>
               <span className="text-sm text-gray-600">{props.dataset.forStars[3]}</span>
             </div>
 
-            <div className="flex items-center justify-between mt-1">
+            <div className="flex items-center gap-4 mt-1">
               <div className="flex items-center">
                 <span className="text-sm text-gray-600">1</span>
-                <div className="h-2 w-80 bg-gray-300 ml-3 rounded-lg">
+                <div className="h-2 md:w-80 w-64 bg-gray-300 ml-3 rounded-lg">
                   <div className="h-full bg-red-400 rounded-lg w-[10%]"></div>
                 </div>
               </div>

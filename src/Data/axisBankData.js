@@ -4,7 +4,7 @@ export const axisBankData = {
     logoImage: axisBankLogo,
     title: "Axis Bank",
     rating: "3.8",
-    totalReviewCount: "80k",
+    totalReviewCount: "1.8k",
     followerCount: "850k",
     foundedIn: "1993",
     headquaters: "Mumbai, Maharashtra, India",
@@ -27,7 +27,7 @@ export const axisBankData = {
     reviewsData: [
       {
         reviewTitle: "Relationship Manager in Delhi",
-        field: "Retail Banking Department",
+        feild: "Retail Banking Department",
         rating: "4.3",
         time: "posted on 02 Aug 2024",
         likes: "Good work culture, excellent growth opportunities, strong focus on customers",
@@ -35,7 +35,7 @@ export const axisBankData = {
       },
       {
         reviewTitle: "Branch Manager in Mumbai",
-        field: "Branch Operations",
+        feild: "Branch Operations",
         rating: "4.2",
         time: "posted on 18 Jul 2024",
         likes: "Supportive leadership, professional development, good incentives",
@@ -43,7 +43,7 @@ export const axisBankData = {
       },
       {
         reviewTitle: "Credit Analyst in Bangalore",
-        field: "Credit Department",
+        feild: "Credit Department",
         rating: "4.0",
         time: "posted on 05 Sep 2024",
         likes: "Challenging work, opportunity for career growth, collaborative team",
@@ -51,7 +51,7 @@ export const axisBankData = {
       },
       {
         reviewTitle: "Customer Service Executive in Kolkata",
-        field: "Customer Service Department",
+        feild: "Customer Service Department",
         rating: "3.9",
         time: "posted on 15 Jun 2024",
         likes: "Friendly team, good work environment, focus on customer satisfaction",

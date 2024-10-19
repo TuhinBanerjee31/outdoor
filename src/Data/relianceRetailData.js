@@ -2,7 +2,7 @@ export const relianceRetailData = {
     logoImage: "https://static.ambitionbox.com/assets/v2/images/rs:fit:200:200:false:false/bG9jYWw6Ly8vbG9nb3Mvb3JpZ2luYWxzL3JlbGlhbmNlLXJldGFpbC1saW1pdGVkLmpwZw.webp",
     title: "Reliance Retail",
     rating: "3.9",
-    totalReviewCount: "50k",
+    totalReviewCount: "5.0k",
     followerCount: "700k",
     foundedIn: "2006",
     headquaters: "Mumbai, Maharashtra, India",
@@ -25,7 +25,7 @@ export const relianceRetailData = {
     reviewsData: [
       {
         reviewTitle: "Store Manager in Delhi",
-        field: "Retail Operations",
+        feild: "Retail Operations",
         rating: "4.5",
         time: "posted on 10 Sep 2024",
         likes: "Great career growth, excellent team culture, customer-oriented approach",
@@ -33,7 +33,7 @@ export const relianceRetailData = {
       },
       {
         reviewTitle: "Sales Executive in Mumbai",
-        field: "Sales Department",
+        feild: "Sales Department",
         rating: "4.3",
         time: "posted on 20 Jul 2024",
         likes: "Supportive management, good benefits, exciting work environment",
@@ -41,7 +41,7 @@ export const relianceRetailData = {
       },
       {
         reviewTitle: "Category Manager in Bangalore",
-        field: "Category Management Department",
+        feild: "Category Management Department",
         rating: "4.2",
         time: "posted on 05 Aug 2024",
         likes: "Opportunities for professional growth, diverse product categories",
@@ -49,7 +49,7 @@ export const relianceRetailData = {
       },
       {
         reviewTitle: "Customer Service Executive in Hyderabad",
-        field: "Customer Service Department",
+        feild: "Customer Service Department",
         rating: "3.9",
         time: "posted on 15 Jun 2024",
         likes: "Customer-focused work culture, decent benefits, friendly team",

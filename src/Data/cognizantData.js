@@ -2,7 +2,7 @@ export const cognizantData = {
     logoImage: "https://static.ambitionbox.com/alpha/company/photos/logos/cognizant.jpg",
     title: "Cognizant",
     rating: "3.8",
-    totalReviewCount: "120k",
+    totalReviewCount: "1.2k",
     followerCount: "1M",
     foundedIn: "1994",
     headquaters: "Teaneck, New Jersey, United States",
@@ -25,7 +25,7 @@ export const cognizantData = {
     reviewsData: [
       {
         reviewTitle: "Software Developer in Bangalore",
-        field: "IT Department",
+        feild: "IT Department",
         rating: "4.4",
         time: "posted on 12 Jul 2024",
         likes: "Excellent work culture, great learning opportunities, flexible working hours",
@@ -33,7 +33,7 @@ export const cognizantData = {
       },
       {
         reviewTitle: "Business Analyst in Chennai",
-        field: "Business Analytics Department",
+        feild: "Business Analytics Department",
         rating: "4.2",
         time: "posted on 28 Aug 2024",
         likes: "Collaborative work environment, diverse projects, career growth opportunities",
@@ -41,7 +41,7 @@ export const cognizantData = {
       },
       {
         reviewTitle: "Project Manager in Hyderabad",
-        field: "Project Management Department",
+        feild: "Project Management Department",
         rating: "4.1",
         time: "posted on 15 Sep 2024",
         likes: "Strong leadership, focus on employee well-being, diverse and exciting projects",
@@ -49,7 +49,7 @@ export const cognizantData = {
       },
       {
         reviewTitle: "Technical Consultant in London",
-        field: "Consulting Department",
+        feild: "Consulting Department",
         rating: "4.0",
         time: "posted on 03 Jun 2024",
         likes: "Opportunities for career advancement, collaborative teams, access to top technology",

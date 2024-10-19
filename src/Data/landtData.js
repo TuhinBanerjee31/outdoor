@@ -4,7 +4,7 @@ export const landtData = {
     logoImage: ltLogo,
     title: "Larsen & Toubro Construction",
     rating: "4.0",
-    totalReviewCount: "5k",
+    totalReviewCount: "3.5k",
     followerCount: "150k",
     foundedIn: "1938",
     headquaters: "Mumbai, Maharashtra, India",
@@ -27,7 +27,7 @@ export const landtData = {
     reviewsData: [
       {
         reviewTitle: "Project Engineer in Mumbai",
-        field: "Engineering Department",
+        feild: "Engineering Department",
         rating: "4.8",
         time: "posted on 15 Jul 2024",
         likes: "Challenging projects, professional development, excellent team collaboration",
@@ -35,7 +35,7 @@ export const landtData = {
       },
       {
         reviewTitle: "Construction Manager in Chennai",
-        field: "Construction Management Department",
+        feild: "Construction Management Department",
         rating: "4.5",
         time: "posted on 20 Aug 2024",
         likes: "Innovative projects, strong safety culture, good benefits",
@@ -43,7 +43,7 @@ export const landtData = {
       },
       {
         reviewTitle: "Civil Engineer in Hyderabad",
-        field: "Civil Engineering Department",
+        feild: "Civil Engineering Department",
         rating: "4.3",
         time: "posted on 10 Sep 2024",
         likes: "Opportunities for growth, supportive team, challenging work",
@@ -51,7 +51,7 @@ export const landtData = {
       },
       {
         reviewTitle: "Environmental Specialist in Bangalore",
-        field: "Environmental Department",
+        feild: "Environmental Department",
         rating: "4.2",
         time: "posted on 01 Jun 2024",
         likes: "Focus on sustainability, great team, learning opportunities",

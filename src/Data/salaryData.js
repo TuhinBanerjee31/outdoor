@@ -103,4 +103,20 @@ export const salaryData = [
         low: "5",
         high: "16"
     },
+    {
+        id: 14,
+        profile: "Safety Officer",
+        count: "301",
+        avg: "5.5",
+        low: "2.7",
+        high: "9"
+    },
+    {
+        id: 15,
+        profile: "Asst Store",
+        count: "171",
+        avg: "3.3",
+        low: "1.4",
+        high: "5"
+    },
 ]

@@ -13,18 +13,18 @@ const OverviewHeader = (props) => {
         />
 
         <div className="flex justify-between items-center py-2">
-          <h2 className="text-2xl font-semibold tracking-wider">{props.dataset.title}</h2>
+          <h2 className="md:text-2xl text-lg font-semibold tracking-wider">{props.dataset.title}</h2>
 
           <div className="flex gap-4">
             <button
               type="button"
-              className="text-white bg-[#3655FF] focus:outline-none font-medium rounded-full text-sm px-6 py-2 text-center"
+              className="text-white bg-[#3655FF] focus:outline-none font-medium rounded-full md:text-sm text-xs md:px-6 px-3 py-2 text-center"
             >
               Follow ({props.dataset.followerCount})
             </button>
             <button
               type="button"
-              className="text-white bg-[#3655FF] focus:outline-none font-medium rounded-full text-sm px-6 py-2 text-center"
+              className="text-white bg-[#3655FF] focus:outline-none font-medium rounded-full md:text-sm text-xs md:px-6 px-3 py-2 text-center"
             >
               More Details
             </button>
@@ -36,7 +36,7 @@ const OverviewHeader = (props) => {
         <p className="text-[#A4A0BE] text-sm">based on {props.dataset.totalReviewCount} Reviews</p>
         </div>
 
-        <div className="py-3 flex gap-3">
+        {/* <div className="py-3 flex gap-3">
             <span className="text-[#E0B75F] flex items-center gap-2 shadow shadow-[#E0B75F] rounded-sm py-1 px-2">
             <TrophyIcon class="h-6 w-6" />
             <p className="text-sm self-end">Top Rated Large Company - 2024</p>
@@ -46,7 +46,7 @@ const OverviewHeader = (props) => {
             <TrophyIcon class="h-6 w-6" />
             <p className="text-sm self-end">Top Rated Internet/Product Company - 2024</p>
             </span>
-        </div>
+        </div> */}
       </div>
     </div>
   );

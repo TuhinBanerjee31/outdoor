@@ -4,7 +4,7 @@ export const kiewitData = {
     logoImage: kiewitLogo,
     title: "Kiewit Corporation",
     rating: "4.0",
-    totalReviewCount: "4k",
+    totalReviewCount: "3.4k",
     followerCount: "100k",
     foundedIn: "1884",
     headquaters: "Omaha, Nebraska, United States",

@@ -1,5 +1,6 @@
 export const udaanData = {
     logoImage: "https://static.ambitionbox.com/alpha/company/photos/logos/udaan.jpg",
+    redirectLink: "/udaan-overview",
     title: "Udaan",
     rating: "4.0",
     totalReviewCount: "1.2k",

@@ -3,7 +3,7 @@ export const hdfcBankData = {
     "https://static.ambitionbox.com/alpha/company/photos/logos/hdfc-bank.jpg",
   title: "HDFC Bank",
   rating: "3.9",
-  totalReviewCount: "90k",
+  totalReviewCount: "3.9k",
   followerCount: "900k",
   foundedIn: "1994",
   headquaters: "Mumbai, Maharashtra, India",
@@ -36,7 +36,7 @@ export const hdfcBankData = {
   reviewsData: [
     {
       reviewTitle: "Relationship Manager in Delhi",
-      field: "Retail Banking Department",
+      feild: "Retail Banking Department",
       rating: "4.4",
       time: "posted on 08 Sep 2024",
       likes:
@@ -45,7 +45,7 @@ export const hdfcBankData = {
     },
     {
       reviewTitle: "Branch Manager in Mumbai",
-      field: "Branch Operations",
+      feild: "Branch Operations",
       rating: "4.3",
       time: "posted on 18 Jul 2024",
       likes:
@@ -54,7 +54,7 @@ export const hdfcBankData = {
     },
     {
       reviewTitle: "Credit Analyst in Bangalore",
-      field: "Credit Department",
+      feild: "Credit Department",
       rating: "4.1",
       time: "posted on 02 Jun 2024",
       likes:
@@ -63,7 +63,7 @@ export const hdfcBankData = {
     },
     {
       reviewTitle: "Customer Service Executive in Chennai",
-      field: "Customer Service Department",
+      feild: "Customer Service Department",
       rating: "3.9",
       time: "posted on 22 May 2024",
       likes:

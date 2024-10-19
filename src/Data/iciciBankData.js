@@ -1,8 +1,9 @@
 export const iciciBankData = {
     logoImage: "https://static.ambitionbox.com/alpha/company/photos/logos/icici-bank.jpg",
+    redirectLink: "/icici-bank-overview",
     title: "ICICI Bank",
     rating: "4.0",
-    totalReviewCount: "100k",
+    totalReviewCount: "1.3k",
     followerCount: "1.1M",
     foundedIn: "1994",
     headquaters: "Mumbai, Maharashtra, India",
@@ -25,7 +26,7 @@ export const iciciBankData = {
     reviewsData: [
       {
         reviewTitle: "Relationship Manager in Mumbai",
-        field: "Retail Banking Department",
+        feild: "Retail Banking Department",
         rating: "4.3",
         time: "posted on 08 Sep 2024",
         likes: "Good benefits, career growth opportunities, strong brand value",
@@ -33,7 +34,7 @@ export const iciciBankData = {
       },
       {
         reviewTitle: "Operations Executive in Delhi",
-        field: "Operations Department",
+        feild: "Operations Department",
         rating: "4.0",
         time: "posted on 22 Jul 2024",
         likes: "Supportive work culture, good pay, comprehensive training",
@@ -41,7 +42,7 @@ export const iciciBankData = {
       },
       {
         reviewTitle: "Wealth Manager in Bangalore",
-        field: "Wealth Management Department",
+        feild: "Wealth Management Department",
         rating: "4.1",
         time: "posted on 15 Aug 2024",
         likes: "Diverse portfolio, access to a wide range of products, growth potential",
@@ -49,7 +50,7 @@ export const iciciBankData = {
       },
       {
         reviewTitle: "Credit Analyst in Hyderabad",
-        field: "Corporate Banking Department",
+        feild: "Corporate Banking Department",
         rating: "3.9",
         time: "posted on 05 Jun 2024",
         likes: "Good learning environment, exposure to large-scale projects, strong team",
