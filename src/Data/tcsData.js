@@ -4,7 +4,7 @@ export const tcsData = {
     logoImage: tcsLogo,
     title: "Tata Consultancy Services",
     rating: "3.7",
-    totalReviewCount: "120k",
+    totalReviewCount: "4.3k",
     followerCount: "1M",
     foundedIn: "1968",
     headquaters: "Mumbai, Maharashtra, India",
@@ -27,7 +27,7 @@ export const tcsData = {
     reviewsData: [
       {
         reviewTitle: "Software Engineer in Bangalore",
-        field: "IT Department",
+        feild: "IT Department",
         rating: "4.5",
         time: "posted on 05 Aug 2024",
         likes: "Excellent learning opportunities, great work-life balance, supportive team",
@@ -35,7 +35,7 @@ export const tcsData = {
       },
       {
         reviewTitle: "Project Manager in Mumbai",
-        field: "Project Management Department",
+        feild: "Project Management Department",
         rating: "4.3",
         time: "posted on 15 Sep 2024",
         likes: "Challenging projects, diverse client base, good benefits",
@@ -43,7 +43,7 @@ export const tcsData = {
       },
       {
         reviewTitle: "Consultant in Chennai",
-        field: "Consulting Department",
+        feild: "Consulting Department",
         rating: "4.2",
         time: "posted on 12 Jul 2024",
         likes: "Opportunities for growth, collaborative team environment",
@@ -51,7 +51,7 @@ export const tcsData = {
       },
       {
         reviewTitle: "Data Analyst in Pune",
-        field: "Data Analytics Department",
+        feild: "Data Analytics Department",
         rating: "4.0",
         time: "posted on 25 Jun 2024",
         likes: "Focus on innovation, strong client portfolio, flexible work culture",

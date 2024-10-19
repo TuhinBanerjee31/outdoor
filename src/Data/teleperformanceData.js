@@ -2,7 +2,7 @@ export const teleperformanceData = {
     logoImage: "https://static.ambitionbox.com/alpha/company/photos/logos/teleperformance.jpg",
     title: "Teleperformance",
     rating: "3.9",
-    totalReviewCount: "60k",
+    totalReviewCount: "3.3k",
     followerCount: "500k",
     foundedIn: "1978",
     headquaters: "Paris, France",
@@ -25,7 +25,7 @@ export const teleperformanceData = {
     reviewsData: [
       {
         reviewTitle: "Associate in Hyderabad",
-        field: "Customer Service Department",
+        feild: "Customer Service Department",
         rating: "4.0",
         time: "posted on 12 Aug 2024",
         likes: "Good team environment, flexible work options, decent benefits",
@@ -33,7 +33,7 @@ export const teleperformanceData = {
       },
       {
         reviewTitle: "Technical Support in Manila",
-        field: "Technical Support Department",
+        feild: "Technical Support Department",
         rating: "3.9",
         time: "posted on 18 Sep 2024",
         likes: "Strong support system, diverse projects, opportunities for growth",
@@ -41,7 +41,7 @@ export const teleperformanceData = {
       },
       {
         reviewTitle: "Team Leader in Mumbai",
-        field: "Operations Department",
+        feild: "Operations Department",
         rating: "3.7",
         time: "posted on 20 Jul 2024",
         likes: "Collaborative team, professional development, good training programs",
@@ -49,7 +49,7 @@ export const teleperformanceData = {
       },
       {
         reviewTitle: "Quality Analyst in Bogotá",
-        field: "Quality Assurance Department",
+        feild: "Quality Assurance Department",
         rating: "3.6",
         time: "posted on 05 Jun 2024",
         likes: "Great learning experience, diverse culture, supportive management",

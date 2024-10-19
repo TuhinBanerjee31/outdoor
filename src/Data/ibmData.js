@@ -1,8 +1,9 @@
 export const ibmData = {
     logoImage: "https://static.ambitionbox.com/alpha/company/photos/logos/ibm.jpg",
+    redirectLink: "/ibm-overview",
     title: "IBM",
     rating: "4.1",
-    totalReviewCount: "150k",
+    totalReviewCount: "1.5k",
     followerCount: "1.2M",
     foundedIn: "1911",
     headquaters: "Armonk, New York, United States",
@@ -25,7 +26,7 @@ export const ibmData = {
     reviewsData: [
       {
         reviewTitle: "Software Engineer in Bangalore",
-        field: "IT Department",
+        feild: "IT Department",
         rating: "4.5",
         time: "posted on 15 Aug 2024",
         likes: "Cutting-edge technology, flexible work environment, diverse projects",
@@ -33,7 +34,7 @@ export const ibmData = {
       },
       {
         reviewTitle: "Project Manager in New York",
-        field: "Project Management Department",
+        feild: "Project Management Department",
         rating: "4.4",
         time: "posted on 22 Sep 2024",
         likes: "Great leadership, innovation-driven culture, challenging projects",
@@ -41,7 +42,7 @@ export const ibmData = {
       },
       {
         reviewTitle: "Data Scientist in London",
-        field: "Data Analytics Department",
+        feild: "Data Analytics Department",
         rating: "4.3",
         time: "posted on 10 Jul 2024",
         likes: "Opportunities for growth, collaborative team, access to top technologies",
@@ -49,7 +50,7 @@ export const ibmData = {
       },
       {
         reviewTitle: "Cloud Engineer in Tokyo",
-        field: "Cloud Services Department",
+        feild: "Cloud Services Department",
         rating: "4.2",
         time: "posted on 02 Jun 2024",
         likes: "Strong focus on innovation, supportive team, flexible working hours",

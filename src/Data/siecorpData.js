@@ -2,9 +2,10 @@ import siecorpLogo from "../assets/siecorp_logo.png";
 
 export const siecorpData = {
     logoImage: siecorpLogo,
+    redirectLink: "/siecorp-overview",
     title: "Siecorp",
     rating: "4.5",
-    totalReviewCount: "2.5k",
+    totalReviewCount: "2.7k",
     followerCount: "75.3k",
     foundedIn: "1992",
     headquaters: "Austin, Texas, United States",

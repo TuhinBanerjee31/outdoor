@@ -43,7 +43,7 @@ const Overview = () => {
   return (
     <div className="font-figtree bg-[#FAFBFE] min-h-screen">
       <div className="max-w-screen-xl mx-auto flex flex-wrap justify-between px-6">
-        <div className="flex items-center gap-3">
+        <div className="flex items-center mx-auto md:mx-0 gap-3">
           <UserGroupIcon className="h-20 w-auto text-[#9E59C3]" />
           <div>
             <h4 className="text-xl font-semibold tracking-wider">100000+</h4>
@@ -51,7 +51,7 @@ const Overview = () => {
           </div>
         </div>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center mx-auto md:mx-0 gap-3">
           <StarIcon className="h-20 w-auto text-[#E5716D]" />
           <div>
             <h4 className="text-xl font-semibold tracking-wider">7000+</h4>
@@ -59,7 +59,7 @@ const Overview = () => {
           </div>
         </div>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center mx-auto md:mx-0 gap-3">
           <ChatBubbleLeftRightIcon className="h-20 w-auto text-[#3EB584]" />
           <div>
             <h4 className="text-xl font-semibold tracking-wider">80000+</h4>
@@ -67,7 +67,7 @@ const Overview = () => {
           </div>
         </div>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center mx-auto md:mx-0 gap-3">
           <BanknotesIcon className="h-20 w-auto text-[#2D46CE]" />
           <div>
             <h4 className="text-xl font-semibold tracking-wider">9000+</h4>

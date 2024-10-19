@@ -1,5 +1,6 @@
 export const googleData = {
   logoImage: "https://static.ambitionbox.com/alpha/company/photos/logos/google.jpg",
+  redirectLink: "/google-overview",
   title: "Google",
   rating: "4.4",
   totalReviewCount: "1.8k",

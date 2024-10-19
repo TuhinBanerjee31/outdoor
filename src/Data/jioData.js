@@ -2,7 +2,7 @@ export const jioData = {
     logoImage: "https://static.ambitionbox.com/alpha/company/photos/logos/jio.jpg",
     title: "Jio",
     rating: "3.9",
-    totalReviewCount: "90k",
+    totalReviewCount: "2.9k",
     followerCount: "1.2M",
     foundedIn: "2007",
     headquaters: "Mumbai, Maharashtra",
@@ -25,7 +25,7 @@ export const jioData = {
     reviewsData: [
       {
         reviewTitle: "Network Engineer in Mumbai",
-        field: "Telecom Engineering Department",
+        feild: "Telecom Engineering Department",
         rating: "4.5",
         time: "posted on 12 Sep 2024",
         likes: "Innovative work environment, great infrastructure, fast-paced projects",
@@ -33,7 +33,7 @@ export const jioData = {
       },
       {
         reviewTitle: "Customer Service Executive in Delhi",
-        field: "Customer Support Department",
+        feild: "Customer Support Department",
         rating: "4.2",
         time: "posted on 28 Jul 2024",
         likes: "Supportive management, good benefits, exciting work culture",
@@ -41,7 +41,7 @@ export const jioData = {
       },
       {
         reviewTitle: "Sales Manager in Bangalore",
-        field: "Sales Department",
+        feild: "Sales Department",
         rating: "4.1",
         time: "posted on 08 Aug 2024",
         likes: "Strong brand, career growth opportunities, competitive salary",
@@ -49,7 +49,7 @@ export const jioData = {
       },
       {
         reviewTitle: "Software Developer in Hyderabad",
-        field: "IT Department",
+        feild: "IT Department",
         rating: "4.0",
         time: "posted on 18 Jun 2024",
         likes: "Cutting-edge technology, diverse learning opportunities, good team",

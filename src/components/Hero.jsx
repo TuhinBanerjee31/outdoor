@@ -42,11 +42,11 @@ const Hero = () => {
         {/* <!-- Content --> */}
         <div className="relative z-10 px-8">
           <div className="flex gap-4 items-center">
-            <img src={SiecorpLogo} alt="..." className="h-32 w-auto" />
+            <img src={SiecorpLogo} alt="..." className="md:h-32 h-24 w-auto" />
 
             <div className="text-left self-end">
-              <h1 className="text-white text-3xl font-semibold tracking-wider">SIECORP</h1>
-              <h1 className="text-white text-2xl font-semibold mb-4 tracking-wider">
+              <h1 className="text-white md:text-3xl text-2xl font-semibold tracking-wider">SIECORP</h1>
+              <h1 className="text-white md:text-2xl text-base font-semibold mb-4 tracking-wider">
                 Most Impactful Brand Of The Year
               </h1>
             </div>
