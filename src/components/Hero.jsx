@@ -3,6 +3,7 @@ import heroImage from "../assets/header_ill.svg";
 import Typewriter from "typewriter-effect";
 import header2 from "../assets/header-2.jpg";
 import SiecorpLogo from "../assets/siecorp_logo.png";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -40,7 +41,7 @@ const Hero = () => {
         </div>
 
         {/* <!-- Content --> */}
-        <div className="relative z-10 px-8">
+        <Link to={'/siecorp-overview'} className="relative z-10 px-8">
           <div className="flex gap-4 items-center">
             <img src={SiecorpLogo} alt="..." className="md:h-32 h-24 w-auto" />
 
@@ -56,7 +57,7 @@ const Hero = () => {
               Join the conversation
             </button> */}
           </div>
-        </div>
+        </Link>
       </div>
     </div>
   );
