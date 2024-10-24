@@ -6,7 +6,7 @@ const Policy = () => {
   return (
     <div className="font-figtree bg-[#FAFBFE]">
       <Navbar />
-      <div className="min-h-screen py-10">
+      <div className="min-h-screen py-10 px-5">
         <h2 className="text-center mb-5 text-3xl font-semibold">
           Privacy Policy
         </h2>
