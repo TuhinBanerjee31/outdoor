@@ -188,7 +188,7 @@ const GlobalRating = (props) => {
                 <span className="text-gray-600 font-semibold">{props.dataset.workPolicyData[0]}%</span>
               </div>
               <div className="w-full bg-gray-200 rounded-full h-2.5 mt-2">
-                <div className={`bg-blue-500 h-2.5 rounded-full w-[${props.dataset.workPolicyData[0]}%]`}></div>
+                <div className={`bg-blue-500 h-2.5 rounded-full`} style={{width: `${props.dataset.workPolicyData[0]}%`}}></div>
               </div>
             </div>
 
@@ -202,7 +202,7 @@ const GlobalRating = (props) => {
                 <span className="text-gray-600 font-semibold">{props.dataset.workPolicyData[1]}%</span>
               </div>
               <div className="w-full bg-gray-200 rounded-full h-2.5 mt-2">
-                <div className={`bg-blue-500 h-2.5 rounded-full w-[${props.dataset.workPolicyData[1]}%]`}></div>
+                <div className={`bg-blue-500 h-2.5 rounded-full`} style={{width: `${props.dataset.workPolicyData[1]}%`}}></div>
               </div>
             </div>
 
@@ -216,7 +216,7 @@ const GlobalRating = (props) => {
                 <span className="text-gray-600 font-semibold">{props.dataset.workPolicyData[2]}%</span>
               </div>
               <div className="w-full bg-gray-200 rounded-full h-2.5 mt-2">
-                <div className={`bg-blue-500 h-2.5 rounded-full w-[${props.dataset.workPolicyData[2]}%]`}></div>
+                <div className={`bg-blue-500 h-2.5 rounded-full`} style={{width: `${props.dataset.workPolicyData[2]}%`}}></div>
               </div>
             </div>
           </div>

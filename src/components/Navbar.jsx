@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { BellIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
+import logo from "../assets/worksearch_logo.png"
 
 const Navbar = () => {
   useEffect(() => {
@@ -13,9 +14,9 @@ const Navbar = () => {
       <div className="flex items-center justify-between px-6 py-4">
         <Link to={"/"} className="flex gap-2">
           <img
-            src="https://static.ambitionbox.com/static/logo.svg"
+            src={logo}
             alt="..."
-            className="h-8 w-auto"
+            className="h-10 w-auto"
           />
           <h3 className="font-semibold text-xl md:text-3xl self-end">
             WorkSearch

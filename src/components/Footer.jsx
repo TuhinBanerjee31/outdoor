@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/worksearch_logo.png"
 
 const Footer = () => {
   return (
@@ -10,8 +11,8 @@ const Footer = () => {
             <div className="mb-6 md:mb-0">
               <Link to={"/"} className="flex items-center">
                 <img
-                  src="https://static.ambitionbox.com/static/logo.svg"
-                  className="h-8 me-3"
+                  src={logo}
+                  className="h-10 me-3"
                   alt="WorkSearch Logo"
                 />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
