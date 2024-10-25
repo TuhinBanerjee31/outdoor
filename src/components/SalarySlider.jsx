@@ -1,9 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Glide from "@glidejs/glide";
 import SalaryCard from "./SalaryCard";
 import { salaryData } from "../Data/salaryData";
+import { siecorpSalaryData } from '../Data/siecorpSalaryData'
 
-const SalarySlider = () => {
+const SalarySlider = (props) => {
+  const [page, setPage] = useState(salaryData);
+
   useEffect(() => {
     const slider = new Glide(".glide-04", {
       type: "carousel",
@@ -32,6 +35,10 @@ const SalarySlider = () => {
     };
   }, []);
 
+  useEffect(() => {
+    if(props.data == 'siecorp') setPage(siecorpSalaryData)
+  }, []);
+
   return (
     <div className="pb-10">
       <h2 className="text-2xl max-w-screen-2xl mx-auto font-semibold pl-2">
@@ -44,7 +51,7 @@ const SalarySlider = () => {
         {/*    <!-- Slides --> */}
         <div className="overflow-hidden" data-glide-el="track">
           <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
-           {salaryData.map(item => (
+           {page.map(item => (
             <li key={item.id}>
               <SalaryCard data={item} />
             </li>

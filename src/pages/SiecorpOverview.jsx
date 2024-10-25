@@ -20,7 +20,7 @@ const SiecorpOverview = () => {
         <ImpactfulBrands />
         <GlobalRating dataset= {siecorpData} />
         <GlobalReviews dataset= {siecorpData} />
-        <SalarySlider />
+        <SalarySlider data= 'siecorp' />
       </div>
 
       <Footer />

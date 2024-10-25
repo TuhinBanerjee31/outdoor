@@ -11,9 +11,9 @@ export const salaryData = [
         id: 2,
         profile: "Quality Engineer",
         count: "459",
-        avg: "2.7",
-        low: "1.2",
-        high: "6"
+        avg: "31",
+        low: "12",
+        high: "46"
     },
     {
         id: 3,
