@@ -11,7 +11,7 @@ export const siecorpData = {
     headquaters: "Sinagpore, India, United States",
     primaryIndustry: "Construction & Engineering, Oil & Gas, Energy, Maritime",
     indiaEmployeeCount: "5k-8k",
-    officeLocations: ["Gujarat |", "Lucknow |", "Andhra Pradesh |", "Illinois |", "New York"],
+    officeLocations: ["Gujarat |", "Uttar Pradesh |", "Andhra Pradesh |", "Illinois |", "New York"],
     otherIndustries: "Infrastructure, IT",
     globalEmployeeCount: "30k+",
     website: "thesiecorp.com",

@@ -59,7 +59,7 @@ const SalarySlider = (props) => {
           </ul>
         </div>
         {/*    <!-- Controls --> */}
-        <div
+        {/* <div
           className="flex w-full items-center justify-center gap-2 p-4"
           data-glide-el="controls"
         >
@@ -105,7 +105,7 @@ const SalarySlider = (props) => {
               />
             </svg>
           </button>
-        </div>
+        </div> */}
       </div>
       {/*<!-- End Carousel with controls outside --> */}
       </div>
