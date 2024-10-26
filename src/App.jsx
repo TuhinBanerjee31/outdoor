@@ -5,8 +5,11 @@ import Overview from './components/Overview'
 import About from './components/About'
 import Testimonial from './components/Testimonial'
 import Footer from './components/Footer'
+import useGoogleAnalytics from './hooks/useGoogleAnalytics'
 
 function App() {
+
+  useGoogleAnalytics();
 
   return (
     <>

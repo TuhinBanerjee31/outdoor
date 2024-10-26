@@ -2,14 +2,11 @@ import React, { useEffect } from "react";
 import { BellIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 import logo from "../assets/worksearch_logo.png"
-import useGoogleAnalytics from "../hooks/useGoogleAnalytics";
 
 const Navbar = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   });
-
-  useGoogleAnalytics();
 
   return (
     <nav className="font-figtree bg-[#FAFBFE]">
