@@ -20,11 +20,11 @@ import ienergizerOffice from "../assets/ienergizer_office.jpg"
 import iciciBankOffice from "../assets/iciciBank_office.jpg";
 import wiproOffice from "../assets/wipro_office.jpg";
 import kinexaOffice from "../assets/kinexa_office.jpg";
-import techMahindraOffice from "../assets/techMahindra_office.jpg";
-import amazonOffice from "../assets/amazon_office.jpg";
-import byjusOffice from "../assets/byjus_office.jpg";
-import viOffice from "../assets/vi_office.jpg";
-import wnsOffice from "../assets/wns_office.jpg";
+import techMahindraOffice from "../assets/techMahindra_Office.jpg";
+import amazonOffice from "../assets/amazon_Office.jpg";
+import byjusOffice from "../assets/byjus_Office.jpg";
+import viOffice from "../assets/vi_Office.jpg";
+import wnsOffice from "../assets/wns_Office.jpg";
 
 export const allCompanyData = [
     {
