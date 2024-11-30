@@ -2,6 +2,7 @@ import siecorpLogo from "../assets/siecorp_logo.png";
 import siecorpOffice from "../assets/siecorp_office.jpg";
 import kiewitLogo from "../assets/kiewit_logo.png";
 import kiewitOffice from "../assets/kiewit_office.jpg";
+import kinexaOffice from "../assets/kinexa_office.jpg";
 
 export const sliderData = [
     {
@@ -48,6 +49,15 @@ export const sliderData = [
         companyLogo: "https://static.ambitionbox.com/alpha/company/photos/logos/dell.jpg",
         companyImage: "https://static.ambitionbox.com/assets/v2/images/rs:fill:900:600/bG9jYWw6Ly8vY29tcGFueV81MTUvcGhvdG9zL2Rpc3BsYXkvNzEzMzZhOGQ2YzdiNTFmMTEzMTczMWYyNzJiNTA0NDFlODZhOWMwNS5qcGc=.webp",
         redirectLink: "/dell-overview"
+    },
+    {
+        id: 14,
+        companyName: "Kinexa Solutions",
+        companyType: "Hiring & Recruitment",
+        rating: "4.1",
+        companyLogo: "https://kinexasolution.in/img/Logopit_1721972680646.png",
+        companyImage: kinexaOffice,
+        redirectLink: "/kinexa-solutions-overview"
     },
     {
         id: 5,

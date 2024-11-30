@@ -40,6 +40,12 @@ import IenergizerOverview from "./pages/IenergizerOverview.jsx";
 import IciciBankOverview from "./pages/IciciBankOverview.jsx";
 import WiproOverview from "./pages/WiproOverview.jsx";
 import JioOverview from "./pages/JioOverview.jsx";
+import KinexaOverview from "./pages/KinexaOverview.jsx";
+import TechMahindraOverview from "./pages/TechMahindraOverview.jsx";
+import AmazonOverview from "./pages/AmazonOverview.jsx";
+import ByjusOverview from "./pages/ByjusOverview.jsx";
+import ViOverview from "./pages/ViOverview.jsx";
+import WnsOverview from "./pages/WnsOverview.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -76,6 +82,12 @@ const router = createBrowserRouter(
       <Route path="icici-bank-overview" element={<IciciBankOverview />} />
       <Route path="wipro-overview" element={<WiproOverview />} />
       <Route path="jio-overview" element={<JioOverview />} />
+      <Route path="kinexa-solutions-overview" element={<KinexaOverview />} />
+      <Route path="tech-mahindra-overview" element={<TechMahindraOverview />} />
+      <Route path="amazon-overview" element={<AmazonOverview />} />
+      <Route path="byjus-overview" element={<ByjusOverview />} />
+      <Route path="vodafone-idea-overview" element={<ViOverview />} />
+      <Route path="wns-overview" element={<WnsOverview />} />
     </Route>
   )
 );

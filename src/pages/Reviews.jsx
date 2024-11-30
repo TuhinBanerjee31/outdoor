@@ -26,6 +26,12 @@ import { hdfcBankData } from "../Data/hdfcBankData";
 import { landtData } from "../Data/landtData";
 import { teleperformanceData } from "../Data/teleperformanceData";
 import { ienergizerData } from "../Data/ienergizerData";
+import {kinexaData} from "../Data/kinexaData";
+import {techMahindraData} from "../Data/techMahindraData";
+import {amazonData} from "../Data/amazonData";
+import {byjusData} from "../Data/byjusData";
+import {viData} from "../Data/viData";
+import {wnsData} from "../Data/wnsData";
 
 const Reviews = () => {
   return (
@@ -293,6 +299,72 @@ const Reviews = () => {
           <h1 className="text-center mx-auto text-lg font-semibold">L&T Reviews</h1>
           <div className="flex flex-wrap gap-3 justify-around">
             {landtData.reviewsData.map((item) => (
+              <div key={item.reviewTitle}>
+                <ReviewCard data={item} />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
+          <h1 className="text-center mx-auto text-lg font-semibold">Kinexa Solutions Reviews</h1>
+          <div className="flex flex-wrap gap-3 justify-around">
+            {kinexaData.reviewsData.map((item) => (
+              <div key={item.reviewTitle}>
+                <ReviewCard data={item} />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
+          <h1 className="text-center mx-auto text-lg font-semibold">Tech Mahindra Reviews</h1>
+          <div className="flex flex-wrap gap-3 justify-around">
+            {techMahindraData.reviewsData.map((item) => (
+              <div key={item.reviewTitle}>
+                <ReviewCard data={item} />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
+          <h1 className="text-center mx-auto text-lg font-semibold">Amazon Reviews</h1>
+          <div className="flex flex-wrap gap-3 justify-around">
+            {amazonData.reviewsData.map((item) => (
+              <div key={item.reviewTitle}>
+                <ReviewCard data={item} />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
+          <h1 className="text-center mx-auto text-lg font-semibold">Byjus Reviews</h1>
+          <div className="flex flex-wrap gap-3 justify-around">
+            {byjusData.reviewsData.map((item) => (
+              <div key={item.reviewTitle}>
+                <ReviewCard data={item} />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
+          <h1 className="text-center mx-auto text-lg font-semibold">Vodafone Idea Reviews</h1>
+          <div className="flex flex-wrap gap-3 justify-around">
+            {viData.reviewsData.map((item) => (
+              <div key={item.reviewTitle}>
+                <ReviewCard data={item} />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
+          <h1 className="text-center mx-auto text-lg font-semibold">WNS Reviews</h1>
+          <div className="flex flex-wrap gap-3 justify-around">
+            {wnsData.reviewsData.map((item) => (
               <div key={item.reviewTitle}>
                 <ReviewCard data={item} />
               </div>

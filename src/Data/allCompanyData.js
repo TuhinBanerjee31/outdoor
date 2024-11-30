@@ -19,6 +19,12 @@ import cognizantOffice from "../assets/cognizant_office.jpg"
 import ienergizerOffice from "../assets/ienergizer_office.jpg"
 import iciciBankOffice from "../assets/iciciBank_office.jpg";
 import wiproOffice from "../assets/wipro_office.jpg";
+import kinexaOffice from "../assets/kinexa_office.jpg";
+import techMahindraOffice from "../assets/techMahindra_Office.jpg";
+import amazonOffice from "../assets/amazon_Office.jpg";
+import byjusOffice from "../assets/byjus_Office.jpg";
+import viOffice from "../assets/vi_Office.jpg";
+import wnsOffice from "../assets/wns_Office.jpg";
 
 export const allCompanyData = [
     {
@@ -236,5 +242,59 @@ export const allCompanyData = [
         companyLogo: "https://static.ambitionbox.com/alpha/company/photos/logos/jio.jpg",
         companyImage: jioOffice,
         redirectLink: "/jio-overview"
+    },
+    {
+        id: 26,
+        companyName: "Kinexa Solutions",
+        companyType: "Hiring & Recruitment",
+        rating: "4.1",
+        companyLogo: "https://kinexasolution.in/img/Logopit_1721972680646.png",
+        companyImage: kinexaOffice,
+        redirectLink: "/kinexa-solutions-overview"
+    },
+    {
+        id: 27,
+        companyName: "Tech Mahindra",
+        companyType: "IT Services & Consulting",
+        rating: "3.6",
+        companyLogo: "https://static.ambitionbox.com/assets/v2/images/rs:fit:200:200:false:false/bG9jYWw6Ly8vbG9nb3Mvb3JpZ2luYWxzL3RlY2gtbWFoaW5kcmEuanBn.webp",
+        companyImage: techMahindraOffice,
+        redirectLink: "/tech-mahindra-overview"
+    },
+    {
+        id: 28,
+        companyName: "Amazon",
+        companyType: "Internet",
+        rating: "4.1",
+        companyLogo: "https://static.ambitionbox.com/assets/v2/images/rs:fit:200:200:false:false/bG9jYWw6Ly8vbG9nb3Mvb3JpZ2luYWxzL2FtYXpvbi5qcGc.webp",
+        companyImage: amazonOffice,
+        redirectLink: "/amazon-overview"
+    },
+    {
+        id: 29,
+        companyName: "BYJU'S",
+        companyType: "EdTech",
+        rating: "3.1",
+        companyLogo: "https://static.ambitionbox.com/assets/v2/images/rs:fit:200:200:false:false/bG9jYWw6Ly8vbG9nb3Mvb3JpZ2luYWxzL2J5anVzLmpwZw.webp",
+        companyImage: byjusOffice,
+        redirectLink: "/byjus-overview"
+    },
+    {
+        id: 30,
+        companyName: "Vodafone Idea",
+        companyType: "Telecom",
+        rating: "4.0",
+        companyLogo: "https://static.ambitionbox.com/assets/v2/images/rs:fit:200:200:false:false/bG9jYWw6Ly8vbG9nb3Mvb3JpZ2luYWxzL3ZvZGFmb25lLWlkZWEuanBn.webp",
+        companyImage: viOffice,
+        redirectLink: "/vodafone-idea-overview"
+    },
+    {
+        id: 31,
+        companyName: "WNS",
+        companyType: "BPO",
+        rating: "3.4",
+        companyLogo: "https://static.ambitionbox.com/assets/v2/images/rs:fit:200:200:false:false/bG9jYWw6Ly8vbG9nb3Mvb3JpZ2luYWxzL3ducy5qcGc.webp",
+        companyImage: wnsOffice,
+        redirectLink: "/wns-overview"
     },
 ]
