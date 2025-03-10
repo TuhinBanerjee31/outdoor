@@ -25,6 +25,7 @@ import amazonOffice from "../assets/amazon_Office.jpg";
 import byjusOffice from "../assets/byjus_Office.jpg";
 import viOffice from "../assets/vi_Office.jpg";
 import wnsOffice from "../assets/wns_Office.jpg";
+import kpngLogo from "../assets/kpngLogo.png";
 
 export const allCompanyData = [
     {
@@ -37,15 +38,6 @@ export const allCompanyData = [
         redirectLink: "/google-overview"
     },
     {
-        id: 10,
-        companyName: "Siecorp",
-        companyType: "Engineering & Construction",
-        rating: "4.5",
-        companyLogo: siecorpLogo,
-        companyImage: siecorpOffice,
-        redirectLink: "/siecorp-overview"
-    },
-    {
         id:2,
         companyName: "Uber",
         companyType: "Internet",
@@ -54,6 +46,15 @@ export const allCompanyData = [
         companyImage: "https://static.ambitionbox.com/assets/v2/images/rs:fill:900:600/bG9jYWw6Ly8vY29tcGFueV81Nzg1L3Bob3Rvcy9kaXNwbGF5L2JkMGZhNjRlOTE2NjJjYTU2MzgyN2VmNjg0N2IyYWQ2ZTIzOTdmZjkuanBn.webp",
         redirectLink: "/uber-overview"
     },
+        {
+            id: 13,
+            companyName: "Kpng",
+            companyType: "Engineering & Construction",
+            rating: "4.4",
+            companyLogo: kpngLogo,
+            companyImage: "https://st3.depositphotos.com/8911320/33966/i/450/depositphotos_339665118-stock-photo-render-modern-office-interior.jpg",
+            redirectLink: "/kpng-overview"
+        },
     {
         id: 3,
         companyName: "Tata Motors",
@@ -116,6 +117,15 @@ export const allCompanyData = [
         companyLogo: "https://static.ambitionbox.com/alpha/company/photos/logos/udaan.jpg",
         companyImage: "https://static.ambitionbox.com/assets/v2/images/rs:fill:900:600/bG9jYWw6Ly8vY29tcGFueV8xNjQyNjQvcGhvdG9zL2Rpc3BsYXkvMDcxMTBhZTUxYTVkYzUxNmJjYTNkYjk1ZDg3MjAwMWU5OThlNGY3NS5qcGc=.webp",
         redirectLink: "/udaan-overview"
+    },
+    {
+        id: 10,
+        companyName: "Siecorp",
+        companyType: "Engineering & Construction",
+        rating: "4.5",
+        companyLogo: siecorpLogo,
+        companyImage: siecorpOffice,
+        redirectLink: "/siecorp-overview"
     },
     {
         id: 9,
@@ -296,5 +306,32 @@ export const allCompanyData = [
         companyLogo: "https://static.ambitionbox.com/assets/v2/images/rs:fit:200:200:false:false/bG9jYWw6Ly8vbG9nb3Mvb3JpZ2luYWxzL3ducy5qcGc.webp",
         companyImage: wnsOffice,
         redirectLink: "/wns-overview"
+    },
+    {
+        id: 32,
+        companyName: "Infosys",
+        companyType: "IT Services & Consulting",
+        rating: "3.7",
+        companyLogo: "https://static.ambitionbox.com/assets/v2/images/rs:fit:200:200:false:false/bG9jYWw6Ly8vbG9nb3Mvb3JpZ2luYWxzL2luZm9zeXMuanBn.webp",
+        companyImage: "https://sightsinplus.com/wp-content/uploads/2022/08/Infosys-office-Infosys-leases-5-lakh-square-feet-in-Bengaluru.jpg",
+        redirectLink: "/infosys-overview"
+    },
+    {
+        id: 33,
+        companyName: "Reliance Industries",
+        companyType: "Oil & Gas",
+        rating: "4.0",
+        companyLogo: "https://static.ambitionbox.com/assets/v2/images/rs:fit:200:200:false:false/bG9jYWw6Ly8vbG9nb3Mvb3JpZ2luYWxzL3JlbGlhbmNlLmpwZw.webp",
+        companyImage: "https://goodluckglass.net/wp-content/uploads/2020/09/20140330_114207.jpg",
+        redirectLink: "/reliance-industries-overview"
+    },
+    {
+        id: 34,
+        companyName: "Bharti Airtel",
+        companyType: "Telecom",
+        rating: "4.0",
+        companyLogo: "https://static.ambitionbox.com/assets/v2/images/rs:fit:200:200:false:false/bG9jYWw6Ly8vbG9nb3Mvb3JpZ2luYWxzL2JoYXJ0aS1haXJ0ZWwuanBn.webp",
+        companyImage: "https://media.assettype.com/outlookbusiness/import/uploadimage/library/16_9/16_9_5/IMAGE_1648366682.webp?w=801&auto=format%2Ccompress&fit=max&format=webp&dpr=1.0",
+        redirectLink: "/bharti-airtel-overview"
     },
 ]

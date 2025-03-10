@@ -3,6 +3,7 @@ import siecorpOffice from "../assets/siecorp_office.jpg";
 import kiewitLogo from "../assets/kiewit_logo.png";
 import kiewitOffice from "../assets/kiewit_office.jpg";
 import kinexaOffice from "../assets/kinexa_office.jpg";
+import kpngLogo from "../assets/kpngLogo.png";
 
 export const sliderData = [
     {
@@ -15,15 +16,6 @@ export const sliderData = [
         redirectLink: "/google-overview"
     },
     {
-        id: 10,
-        companyName: "Siecorp",
-        companyType: "Engineering & Construction",
-        rating: "4.5",
-        companyLogo: siecorpLogo,
-        companyImage: siecorpOffice,
-        redirectLink: "/siecorp-overview"
-    },
-    {
         id:2,
         companyName: "Uber",
         companyType: "Internet",
@@ -31,6 +23,15 @@ export const sliderData = [
         companyLogo: "https://static.ambitionbox.com/alpha/company/photos/logos/uber.jpg",
         companyImage: "https://static.ambitionbox.com/assets/v2/images/rs:fill:900:600/bG9jYWw6Ly8vY29tcGFueV81Nzg1L3Bob3Rvcy9kaXNwbGF5L2JkMGZhNjRlOTE2NjJjYTU2MzgyN2VmNjg0N2IyYWQ2ZTIzOTdmZjkuanBn.webp",
         redirectLink: "/uber-overview"
+    },
+    {
+        id: 13,
+        companyName: "Kpng",
+        companyType: "Engineering & Construction",
+        rating: "4.4",
+        companyLogo: kpngLogo,
+        companyImage: "https://st3.depositphotos.com/8911320/33966/i/450/depositphotos_339665118-stock-photo-render-modern-office-interior.jpg",
+        redirectLink: "/kpng-overview"
     },
     {
         id: 3,
@@ -76,6 +77,15 @@ export const sliderData = [
         companyLogo: "https://static.ambitionbox.com/alpha/company/photos/logos/blackbuck.jpg",
         companyImage: "https://static.ambitionbox.com/assets/v2/images/rs:fill:900:600/bG9jYWw6Ly8vY29tcGFueV8xNTQ2MDQvcGhvdG9zL2Rpc3BsYXkvOGVlMTBlMmYwNDZkOTYzZjQwNTQyMjJmMGJiNzY2OWU1YzMyMGM4Yy5qcGc=.webp",
         redirectLink: "/blackbuck-overview"
+    },
+    {
+        id: 10,
+        companyName: "Siecorp",
+        companyType: "Engineering & Construction",
+        rating: "4.5",
+        companyLogo: siecorpLogo,
+        companyImage: siecorpOffice,
+        redirectLink: "/siecorp-overview"
     },
     {
         id: 7,

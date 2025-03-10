@@ -20,6 +20,7 @@ import { vinciData } from "../Data/vinciData";
 import { relianceRetailData } from "../Data/relianceRetailData";
 import { iciciBankData } from "../Data/iciciBankData";
 import { kiewitData } from "../Data/kiewitData";
+import {kpngData} from "../Data/kpngData"
 import { ibmData } from "../Data/ibmData";
 import { tcsData } from "../Data/tcsData";
 import { hdfcBankData } from "../Data/hdfcBankData";
@@ -44,9 +45,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Accenture Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {accentureData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -54,10 +55,10 @@ const Reviews = () => {
         </div>
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
-          <h1 className="text-center mx-auto text-lg font-semibold">Siecorp Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
-            {siecorpData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+          <h1 className="text-center mx-auto text-lg font-semibold">KPNG Reviews</h1>
+          <div className="grid grid-cols-12">
+            {kpngData.reviewsData.map((item) => (
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -66,9 +67,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Cognizant Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {cognizantData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -77,9 +78,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Asian Paints Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {asianPaintsData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -88,9 +89,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">BlackBuck Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {blackBuckData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -99,9 +100,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Teleperformance Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {teleperformanceData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -110,9 +111,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Axis Bank Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {axisBankData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -121,9 +122,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Jio Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {jioData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -132,9 +133,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Dell Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {dellData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -143,9 +144,20 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Wipro Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {wiproData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
+                <ReviewCard data={item} />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
+          <h1 className="text-center mx-auto text-lg font-semibold">Siecorp Reviews</h1>
+          <div className="grid grid-cols-12">
+            {siecorpData.reviewsData.map((item) => (
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -154,9 +166,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Vinci Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {vinciData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -165,9 +177,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Deloitte Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {deloitteData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -176,9 +188,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Google Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {googleData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -187,9 +199,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Reliance Retail Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {relianceRetailData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -198,9 +210,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">ICICI Bank Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {iciciBankData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -209,9 +221,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Tata Motors Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {tataMotorsData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -220,9 +232,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Uber Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {uberData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -231,9 +243,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Kiewit Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {kiewitData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -242,9 +254,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">IBM Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {ibmData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -253,9 +265,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">TCS Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {tcsData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -264,9 +276,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">iEnergizer Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {ienergizerData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -275,9 +287,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Udaan Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {udaanData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -286,9 +298,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">HDFC Bank Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {hdfcBankData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -297,9 +309,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">L&T Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {landtData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -308,9 +320,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Kinexa Solutions Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {kinexaData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -319,9 +331,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Tech Mahindra Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {techMahindraData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -330,9 +342,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Amazon Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {amazonData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -341,9 +353,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Byjus Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {byjusData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -352,9 +364,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Vodafone Idea Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {viData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
@@ -363,9 +375,9 @@ const Reviews = () => {
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">WNS Reviews</h1>
-          <div className="flex flex-wrap gap-3 justify-around">
+          <div className="grid grid-cols-12">
             {wnsData.reviewsData.map((item) => (
-              <div key={item.reviewTitle}>
+              <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
