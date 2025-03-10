@@ -10,6 +10,26 @@ export const tipsData = [
       "When working on large-scale systems, writing scalable and efficient code is essential to ensure your application can handle a growing user base and data load. Break down complex problems into smaller, manageable microservices. Focus on clean, modular code that can be easily maintained and debugged. Use load balancing and distributed systems approaches to manage heavy traffic and prevent bottlenecks. Testing for scalability is key; run your code under different loads to identify any weaknesses early. Leveraging cloud platforms like Google Cloud for autoscaling and monitoring can further enhance your application’s ability to adapt to changing demands without downtime.",
   },
   {
+    id: 16,
+    name: "Michael Stevens",
+    company: "KPNG",
+    designation: "Director of Energy Solutions",
+    reviewedDate: "2024-09-20",
+    title: "Advancing Renewable Energy for Sustainable Infrastructure",
+    summary:
+      "The future of infrastructure is deeply connected to sustainable energy solutions. At KPNG, we focus on integrating renewable energy sources such as solar, wind, and hydro into major infrastructure projects. One of the key strategies is lifecycle cost analysis (LCCA), ensuring that projects remain both economically viable and environmentally responsible. Additionally, energy storage systems play a crucial role in balancing supply and demand, allowing consistent power distribution. Collaborating with global partners, we implement cutting-edge grid management solutions to optimize energy flow and reduce waste. The transition to green energy is not just a goal—it’s a necessity for long-term development.",
+  },
+  {
+    id: 17,
+    name: "Gargi Kaur",
+    company: "KPNG",
+    designation: "Project Manager",
+    reviewedDate: "2024-09-18",
+    title: "Efficient Project Management in Large-Scale Infrastructure",
+    summary:
+      "Managing large-scale infrastructure projects requires a balance of strategic planning, risk management, and real-time decision-making. At KPNG, we utilize digital project management tools to streamline workflows, optimize resources, and ensure projects stay on track. Communication between stakeholders is key—regular check-ins and milestone reviews help maintain alignment across teams. Additionally, risk assessment frameworks allow us to anticipate challenges before they arise, ensuring proactive solutions rather than reactive fixes. Our experience in executing transformative projects such as the Riyadh Metro and the London Crossrail project has strengthened our expertise in delivering high-quality infrastructure on time and within budget.",
+  },
+  {
     id: 1,
     name: "Joginder Dey",
     company: "Siecorp",
@@ -67,6 +87,16 @@ export const tipsData = [
     reviewedDate: "2024-07-18",
     title: "Key Strategies for Effective Investment Banking",
     summary: "In investment banking, maintaining a strong client relationship is key to driving business. Understanding the client’s objectives, whether raising capital or managing mergers and acquisitions, is the first step in providing bespoke financial solutions. Perform in-depth market analysis and financial modeling to forecast potential outcomes and risks. Risk management is integral—diversifying portfolios and employing hedging strategies can protect against market volatility. Additionally, clear communication is essential to ensure clients understand complex financial products and transactions. Staying up to date with regulatory changes and market trends allows investment bankers to deliver informed and strategic advice."
+},
+{
+  id: 18,
+  name: "Sherya Bansal",
+  company: "KPNG",
+  designation: "International Operations Head",
+  reviewedDate: "2024-09-12",
+  title: "Navigating Global Expansion in Infrastructure Development",
+  summary:
+    "Global infrastructure expansion comes with diverse challenges, from regulatory compliance to cultural adaptation. At KPNG, we prioritize understanding local markets while implementing global best practices. Establishing regional offices in key locations such as London, New York, and Johannesburg has helped us tailor solutions to specific market needs. Partnerships with local stakeholders ensure smoother project execution, minimizing bureaucratic delays. Additionally, integrating smart technologies in our projects enhances operational efficiency, reducing costs and improving sustainability. With a focus on adaptability and strategic planning, we continue to expand our footprint while maintaining high standards of execution.",
 },
 {
     id: 7,
