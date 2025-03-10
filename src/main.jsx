@@ -46,6 +46,8 @@ import AmazonOverview from "./pages/AmazonOverview.jsx";
 import ByjusOverview from "./pages/ByjusOverview.jsx";
 import ViOverview from "./pages/ViOverview.jsx";
 import WnsOverview from "./pages/WnsOverview.jsx";
+import InfosysOverview from "./pages/InfosysOverview.jsx";
+import KpngOverview from "./pages/KpngOverview.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -88,6 +90,8 @@ const router = createBrowserRouter(
       <Route path="byjus-overview" element={<ByjusOverview />} />
       <Route path="vodafone-idea-overview" element={<ViOverview />} />
       <Route path="wns-overview" element={<WnsOverview />} />
+      <Route path="infosys-overview" element={<InfosysOverview />} />
+      <Route path="kpng-overview" element={<KpngOverview />} />
     </Route>
   )
 );

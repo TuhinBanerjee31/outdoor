@@ -1,6 +1,6 @@
 import React from "react";
 import BrandCard from "./BrandCard";
-import { siecorpData } from "../Data/siecorpData";
+import { kpngData } from "../Data/kpngData";
 import { googleData } from "../Data/googleData";
 import { udaanData } from "../Data/udaanData";
 import { iciciBankData } from "../Data/iciciBankData";
@@ -13,7 +13,7 @@ const ImpactfulBrands = () => {
       <h2 className="text-2xl max-w-screen-xl mx-auto font-semibold">Brands of Impact</h2>
 
       <div className="flex max-w-screen-2xl mx-auto flex-wrap gap-4 justify-center">
-        <BrandCard data={siecorpData} />
+        <BrandCard data={kpngData} />
         <BrandCard data={googleData} />
         <BrandCard data={udaanData} />
         <BrandCard data={iciciBankData} />

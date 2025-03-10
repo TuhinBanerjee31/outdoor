@@ -1,0 +1,65 @@
+import kpngLogo from "../assets/kpngLogo.png";
+
+export const kpngData = {
+    logoImage: kpngLogo,
+    redirectLink: "/kpng-overview",
+    title: "KPNG",
+    rating: "4.4",
+    totalReviewCount: "3.2k",
+    followerCount: "82.5k",
+    foundedIn: "2011",
+    headquarters: "Riyadh, Saudi Arabia",
+    primaryIndustry: "Infrastructure, Power & Energy, Manufacturing, Maritime",
+    globalEmployeeCount: "50k+",
+    indiaEmployeeCount: "4k-7k",
+    officeLocations: [
+        "Visakhapatnam |", "Singapore |", "Shanghai |", "Moscow |",
+        "London |", "Paris |", "Toronto |",
+    ],
+    otherIndustries: "Smart Cities, Renewable Energy",
+    website: "kpng.org",
+    about: "KPNG (Knagz Power and Network-Infrastructure Group) is a global leader in power and infrastructure development, specializing in sustainable energy solutions, smart city technologies, and large-scale infrastructure projects. Operating in over 20 countries, KPNG is committed to shaping the future with innovation and sustainable practices.",
+    mission: "To deliver cutting-edge infrastructure and energy solutions that drive global progress and empower communities.",
+    vision: "To be the world’s foremost leader in sustainable infrastructure and energy solutions, setting new benchmarks for innovation and quality.",
+    forStars: ["1.5k", "600", "400", "350", "250"],
+    categoryRatings: ["4.7", "4.5", "4.6", "4.4", "4.5", "4.3", "4.4"],
+    womensRating: ["4.6", "650"],
+    mensRating: ["4.5", "2.1k"],
+    otherFour: ["4.5", "4.6", "4.4", "4.7"],
+    workPolicyData: ["35", "12", "53"],
+    workPolicyExtraData: ["400", "18"],
+    reviewsData: [
+        {
+            reviewTitle: "Project Manager in Riyadh",
+            feild: "Infrastructure Development",
+            rating: "4.9",
+            time: "posted on 20 Feb 2025",
+            likes: "Innovative projects, excellent leadership, and global exposure",
+            dislikes: "Challenging project deadlines",
+        },
+        {
+            reviewTitle: "Energy Analyst in Singapore",
+            feild: "Power & Energy Solutions",
+            rating: "4.5",
+            time: "posted on 10 Jan 2025",
+            likes: "Great sustainability initiatives, strong work culture",
+            dislikes: "Fast-paced environment",
+        },
+        {
+            reviewTitle: "Smart City Engineer in London",
+            feild: "Technology Integration",
+            rating: "4.3",
+            time: "posted on 25 Dec 2024",
+            likes: "Cutting-edge technologies, supportive teams",
+            dislikes: "Occasional long hours",
+        },
+        {
+            reviewTitle: "Operations Manager in New York",
+            feild: "Project Management",
+            rating: "4.6",
+            time: "posted on 05 Dec 2024",
+            likes: "Exciting global projects, well-structured work processes",
+            dislikes: "Complex interdepartmental coordination",
+        }
+    ]
+};
