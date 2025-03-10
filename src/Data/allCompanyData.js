@@ -48,7 +48,7 @@ export const allCompanyData = [
     },
         {
             id: 13,
-            companyName: "Kpng",
+            companyName: "KPNG",
             companyType: "Engineering & Construction",
             rating: "4.4",
             companyLogo: kpngLogo,
