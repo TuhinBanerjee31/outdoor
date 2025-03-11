@@ -1,7 +1,9 @@
 import kiewitLogo from "../assets/kiewit_logo.png";
+import kiewitOffice from "../assets/kiewit_office.jpg";
 
 export const kiewitData = {
     logoImage: kiewitLogo,
+    companyImage: kiewitOffice,
     title: "Kiewit Corporation",
     rating: "4.0",
     totalReviewCount: "3.4k",

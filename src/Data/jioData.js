@@ -1,5 +1,8 @@
+import jioOffice from "../assets/jio_office.jpg";
+
 export const jioData = {
     logoImage: "https://static.ambitionbox.com/alpha/company/photos/logos/jio.jpg",
+    companyImage: jioOffice,
     title: "Jio",
     rating: "3.9",
     totalReviewCount: "2.9k",

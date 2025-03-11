@@ -1,6 +1,7 @@
 export const uberData = {
     logoImage: "https://static.ambitionbox.com/alpha/company/photos/logos/uber.jpg",
     title: "Uber",
+    companyImage: "https://static.ambitionbox.com/assets/v2/images/rs:fill:900:600/bG9jYWw6Ly8vY29tcGFueV81Nzg1L3Bob3Rvcy9kaXNwbGF5L2JkMGZhNjRlOTE2NjJjYTU2MzgyN2VmNjg0N2IyYWQ2ZTIzOTdmZjkuanBn.webp",
     rating: "4.1",
     totalReviewCount: "2.3k",
     followerCount: "70.5k",

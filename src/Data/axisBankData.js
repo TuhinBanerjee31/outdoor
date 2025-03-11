@@ -1,7 +1,9 @@
 import axisBankLogo from "../assets/axisBank_logo.png";
+import axisBankOffice from "../assets/axisBank_Office.jpg";
 
 export const axisBankData = {
     logoImage: axisBankLogo,
+    companyImage: axisBankOffice,
     title: "Axis Bank",
     rating: "3.8",
     totalReviewCount: "1.8k",

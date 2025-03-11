@@ -1,7 +1,9 @@
 import vinciLogo from "../assets/vinci_logo.png";
+import vinciOffice from "../assets/vinci_office.jpg";
 
 export const vinciData = {
     logoImage: vinciLogo,
+    companyImage: vinciOffice,
     redirectLink: "/vinci-overview",
     title: "Vinci",
     rating: "4.0",

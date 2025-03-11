@@ -1,5 +1,8 @@
+import relianceRetailOffice from "../assets/relianceRetail_Office.jpg";
+
 export const relianceRetailData = {
     logoImage: "https://static.ambitionbox.com/assets/v2/images/rs:fit:200:200:false:false/bG9jYWw6Ly8vbG9nb3Mvb3JpZ2luYWxzL3JlbGlhbmNlLXJldGFpbC1saW1pdGVkLmpwZw.webp",
+    companyImage: relianceRetailOffice,
     title: "Reliance Retail",
     rating: "3.9",
     totalReviewCount: "5.0k",

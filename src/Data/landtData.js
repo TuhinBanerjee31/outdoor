@@ -1,7 +1,9 @@
 import ltLogo from "../assets/l&t_logo.png";
+import ltOffice from "../assets/l&t_Office.jpg";
 
 export const landtData = {
     logoImage: ltLogo,
+    companyImage: ltOffice,
     title: "Larsen & Toubro Construction",
     rating: "4.0",
     totalReviewCount: "3.5k",

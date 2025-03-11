@@ -1,6 +1,9 @@
+import amazonOffice from "../assets/amazon_Office.jpg";
+
 export const amazonData = {
     logoImage: "https://static.ambitionbox.com/assets/v2/images/rs:fit:200:200:false:false/bG9jYWw6Ly8vbG9nb3Mvb3JpZ2luYWxzL2FtYXpvbi5qcGc.webp",
     redirectLink: "/amazon-overview",
+    companyImage: amazonOffice,
     title: "Amazon",
     rating: "4.1",
     totalReviewCount: "4.5k",

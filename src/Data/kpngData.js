@@ -3,6 +3,7 @@ import kpngLogo from "../assets/kpngLogo.png";
 export const kpngData = {
     logoImage: kpngLogo,
     redirectLink: "/kpng-overview",
+    companyImage: "https://st3.depositphotos.com/8911320/33966/i/450/depositphotos_339665118-stock-photo-render-modern-office-interior.jpg",
     title: "KPNG",
     rating: "4.4",
     totalReviewCount: "3.2k",

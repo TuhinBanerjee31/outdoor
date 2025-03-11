@@ -1,6 +1,9 @@
+import viOffice from "../assets/vi_Office.jpg";
+
 export const viData = {
     logoImage: "https://static.ambitionbox.com/assets/v2/images/rs:fit:200:200:false:false/bG9jYWw6Ly8vbG9nb3Mvb3JpZ2luYWxzL3ZvZGFmb25lLWlkZWEuanBn.webp",
     redirectLink: "/vodafone-idea-overview",
+    companyImage: viOffice,
     title: "Vodafone Idea",
     rating: "4.0",
     totalReviewCount: "2.8k",

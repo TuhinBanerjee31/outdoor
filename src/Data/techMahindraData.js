@@ -1,6 +1,9 @@
+import techMahindraOffice from "../assets/techMahindra_Office.jpg";
+
 export const techMahindraData = {
     logoImage: "https://static.ambitionbox.com/assets/v2/images/rs:fit:200:200:false:false/bG9jYWw6Ly8vbG9nb3Mvb3JpZ2luYWxzL3RlY2gtbWFoaW5kcmEuanBn.webp",
     redirectLink: "/tech-mahindra-overview",
+    companyImage: techMahindraOffice,
     title: "Tech Mahindra",
     rating: "3.6",
     totalReviewCount: "2.2k",

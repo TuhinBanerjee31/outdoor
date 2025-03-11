@@ -34,7 +34,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="flex gap-7 bg-[#F6F7FE] px-7 py-2">
+      <div className="flex gap-7 bg-[#F6F7FE] px-7 py-3 shadow-inner">
         <Link to={"/community"} className="cursor-pointer tracking-wider">
           Community
         </Link>

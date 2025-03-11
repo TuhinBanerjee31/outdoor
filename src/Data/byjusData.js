@@ -1,6 +1,9 @@
+import byjusOffice from "../assets/byjus_Office.jpg";
+
 export const byjusData = {
     logoImage: "https://static.ambitionbox.com/assets/v2/images/rs:fit:200:200:false:false/bG9jYWw6Ly8vbG9nb3Mvb3JpZ2luYWxzL2J5anVzLmpwZw.webp",
     redirectLink: "/byjus-overview",
+    companyImage: byjusOffice,
     title: "BYJU'S",
     rating: "3.1",
     totalReviewCount: "2.1k",

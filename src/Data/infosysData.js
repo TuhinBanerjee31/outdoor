@@ -1,6 +1,8 @@
 export const infosysData = {
     logoImage: "https://static.ambitionbox.com/assets/v2/images/rs:fit:200:200:false:false/bG9jYWw6Ly8vbG9nb3Mvb3JpZ2luYWxzL2luZm9zeXMuanBn.webp",
     redirectLink: "/infosys-overview",
+    companyImage:
+      "https://sightsinplus.com/wp-content/uploads/2022/08/Infosys-office-Infosys-leases-5-lakh-square-feet-in-Bengaluru.jpg",
     title: "Infosys",
     rating: "3.7",
     totalReviewCount: "10k+",

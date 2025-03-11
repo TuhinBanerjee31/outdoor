@@ -1,6 +1,9 @@
+import kinexaOffice from "../assets/kinexa_office.jpg";
+
 export const kinexaData = {
     logoImage: "https://kinexasolution.in/img/Logopit_1721972680646.png",
     redirectLink: "/kinexa-solutions-overview",
+    companyImage: kinexaOffice,
     title: "Kinexa Solutions",
     rating: "4.1",
     totalReviewCount: "879",
