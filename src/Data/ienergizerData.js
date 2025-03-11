@@ -1,5 +1,8 @@
+import ienergizerOffice from "../assets/ienergizer_office.jpg";
+
 export const ienergizerData = {
     logoImage: "https://static.ambitionbox.com/alpha/company/photos/logos/ienergizer.jpg",
+    companyImage: ienergizerOffice,
     title: "iEnergizer",
     rating: "3.7",
     totalReviewCount: "2.0k",

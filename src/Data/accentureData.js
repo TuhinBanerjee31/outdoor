@@ -1,5 +1,7 @@
 export const accentureData = {
     logoImage: "https://static.ambitionbox.com/alpha/company/photos/logos/accenture.jpg",
+    companyImage:
+      "https://static.ambitionbox.com/assets/v2/images/rs:fill:900:600/bG9jYWw6Ly8vY29tcGFueV8yNzMvcGhvdG9zL2Rpc3BsYXkvMWJmYmI2ZWFlZDY5MjA3MmYwMjFhY2Q0ZjlmNTM4NWU1YTVhZWEwMy5qcGc=.webp",
     title: "Accenture",
     rating: "4.0",
     totalReviewCount: "4.5k",

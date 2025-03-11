@@ -1,6 +1,9 @@
+import wnsOffice from "../assets/wns_Office.jpg";
+
 export const wnsData = {
     logoImage: "https://static.ambitionbox.com/assets/v2/images/rs:fit:200:200:false:false/bG9jYWw6Ly8vbG9nb3Mvb3JpZ2luYWxzL3ducy5qcGc.webp",
     redirectLink: "/wns-overview",
+    companyImage: wnsOffice,
     title: "WNS",
     rating: "3.4",
     totalReviewCount: "3.2k",

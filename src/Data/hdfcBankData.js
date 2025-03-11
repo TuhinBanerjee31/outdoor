@@ -1,7 +1,10 @@
+import hdfcBankOffice from "../assets/hdfcBank_office.jpg";
+
 export const hdfcBankData = {
   logoImage:
     "https://static.ambitionbox.com/alpha/company/photos/logos/hdfc-bank.jpg",
   title: "HDFC Bank",
+  companyImage: hdfcBankOffice,
   rating: "3.9",
   totalReviewCount: "3.9k",
   followerCount: "900k",

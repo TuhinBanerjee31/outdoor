@@ -1,5 +1,8 @@
+import ibmOffice from "../assets/ibm_office.jpg";
+
 export const ibmData = {
     logoImage: "https://static.ambitionbox.com/alpha/company/photos/logos/ibm.jpg",
+    companyImage: ibmOffice,
     redirectLink: "/ibm-overview",
     title: "IBM",
     rating: "4.1",

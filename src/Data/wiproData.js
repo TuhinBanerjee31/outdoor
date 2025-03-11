@@ -1,5 +1,8 @@
+import wiproOffice from "../assets/wipro_office.jpg";
+
 export const wiproData = {
     logoImage: "https://static.ambitionbox.com/alpha/company/photos/logos/wipro.jpg",
+    companyImage: wiproOffice,
     title: "Wipro",
     rating: "3.8",
     totalReviewCount: "3.0k",

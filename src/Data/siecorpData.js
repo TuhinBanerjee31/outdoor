@@ -1,7 +1,9 @@
 import siecorpLogo from "../assets/siecorp_logo.png";
+import siecorpOffice from "../assets/siecorp_office.jpg";
 
 export const siecorpData = {
     logoImage: siecorpLogo,
+    companyImage: siecorpOffice,
     redirectLink: "/siecorp-overview",
     title: "Siecorp",
     rating: "4.5",

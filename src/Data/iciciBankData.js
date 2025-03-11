@@ -1,5 +1,8 @@
+import iciciBankOffice from "../assets/iciciBank_office.jpg";
+
 export const iciciBankData = {
     logoImage: "https://static.ambitionbox.com/alpha/company/photos/logos/icici-bank.jpg",
+    companyImage: iciciBankOffice,
     redirectLink: "/icici-bank-overview",
     title: "ICICI Bank",
     rating: "4.0",

@@ -1,5 +1,8 @@
+import cognizantOffice from "../assets/cognizant_office.jpg";
+
 export const cognizantData = {
     logoImage: "https://static.ambitionbox.com/alpha/company/photos/logos/cognizant.jpg",
+    companyImage: cognizantOffice,
     title: "Cognizant",
     rating: "3.8",
     totalReviewCount: "1.2k",

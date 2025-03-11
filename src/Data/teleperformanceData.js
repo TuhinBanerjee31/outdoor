@@ -1,6 +1,9 @@
+import teleperformanceOffice from "../assets/teleperformance_Office.jpg";
+
 export const teleperformanceData = {
     logoImage: "https://static.ambitionbox.com/alpha/company/photos/logos/teleperformance.jpg",
     title: "Teleperformance",
+    companyImage: teleperformanceOffice,
     rating: "3.9",
     totalReviewCount: "3.3k",
     followerCount: "500k",

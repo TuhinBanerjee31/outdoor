@@ -1,7 +1,9 @@
 import tcsLogo from "../assets/tcs_logo.png";
+import tcsOffice from "../assets/tcs_Office.webp";
 
 export const tcsData = {
     logoImage: tcsLogo,
+    companyImage: tcsOffice,
     title: "Tata Consultancy Services",
     rating: "3.7",
     totalReviewCount: "4.3k",

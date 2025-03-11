@@ -1,5 +1,7 @@
 export const asianPaintsData = {
     logoImage: "https://static.ambitionbox.com/alpha/company/photos/logos/asianpaints.jpg",
+    companyImage:
+      "https://static.ambitionbox.com/assets/v2/images/rs:fill:900:600/bG9jYWw6Ly8vY29tcGFueV8zNDYvcGhvdG9zL2Rpc3BsYXkvZmQ4YjRkZTA4MWJmZjcwZDIzNDZkNzBkNWI4NzgyYzQzZjJkZGVjNy5qcGc=.webp",
     title: "Asian Paints",
     rating: "4.1",
     totalReviewCount: "1.9k",
