@@ -69,7 +69,7 @@ const router = createBrowserRouter(
       <Route path="contact-us" element={<ContactUs />} />
       <Route path="privacy-policy" element={<Policy />} />
       <Route path="salaries" element={<Salaries />} />
-      <Route path="siecorp-overview" element={<SiecorpOverview />} />
+      {/* <Route path="siecorp-overview" element={<SiecorpOverview />} /> */}
       <Route path="kiewit-overview" element={<KiewitOverview />} />
       <Route path="l-and-t-overview" element={<LandtOverview />} />
       <Route path="tcs-overview" element={<TcsOverview />} />

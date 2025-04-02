@@ -153,7 +153,7 @@ const Reviews = () => {
           </div>
         </div>
 
-        <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
+        {/* <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Siecorp Reviews</h1>
           <div className="grid grid-cols-12">
             {siecorpData.reviewsData.map((item) => (
@@ -162,7 +162,7 @@ const Reviews = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Vinci Reviews</h1>

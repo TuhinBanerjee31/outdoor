@@ -32,7 +32,7 @@ export const tipsData = [
   {
     id: 1,
     name: "Joginder Dey",
-    company: "Siecorp",
+    company: "Vinci",
     designation: "Project Manager",
     reviewedDate: "2024-08-01",
     title: "Effective Time Management on Construction Sites",
@@ -52,7 +52,7 @@ export const tipsData = [
   {
     id: 3,
     name: "Maria Hernandez",
-    company: "Siecorp",
+    company: "Vinci",
     designation: "Civil Engineer",
     reviewedDate: "2024-07-21",
     title: "Ensuring Safety in Oil and Gas Operations",
@@ -62,7 +62,7 @@ export const tipsData = [
   {
     id: 4,
     name: "Ahmad Ali",
-    company: "Siecorp",
+    company: "Vinci",
     designation: "Energy Systems Engineer",
     reviewedDate: "2024-09-15",
     title: "Sustainable Practices in Energy Projects",
@@ -146,7 +146,7 @@ export const tipsData = [
 {
     id: 12,
     name: "Dharmesh Bera",
-    company: "Siecorp",
+    company: "Vinci",
     designation: "Construction Foreman",
     reviewedDate: "2024-05-14",
     title: "Managing Labor Effectively on Large Construction Sites",

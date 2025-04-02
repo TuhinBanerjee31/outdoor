@@ -78,15 +78,15 @@ export const sliderData = [
         companyImage: "https://static.ambitionbox.com/assets/v2/images/rs:fill:900:600/bG9jYWw6Ly8vY29tcGFueV8xNTQ2MDQvcGhvdG9zL2Rpc3BsYXkvOGVlMTBlMmYwNDZkOTYzZjQwNTQyMjJmMGJiNzY2OWU1YzMyMGM4Yy5qcGc=.webp",
         redirectLink: "/blackbuck-overview"
     },
-    {
-        id: 10,
-        companyName: "Siecorp",
-        companyType: "Engineering & Construction",
-        rating: "4.5",
-        companyLogo: siecorpLogo,
-        companyImage: siecorpOffice,
-        redirectLink: "/siecorp-overview"
-    },
+    // {
+    //     id: 10,
+    //     companyName: "Siecorp",
+    //     companyType: "Engineering & Construction",
+    //     rating: "4.5",
+    //     companyLogo: siecorpLogo,
+    //     companyImage: siecorpOffice,
+    //     redirectLink: "/siecorp-overview"
+    // },
     {
         id: 7,
         companyName: "Accenture",
