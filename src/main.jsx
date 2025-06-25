@@ -48,6 +48,9 @@ import ViOverview from "./pages/ViOverview.jsx";
 import WnsOverview from "./pages/WnsOverview.jsx";
 import InfosysOverview from "./pages/InfosysOverview.jsx";
 import KpngOverview from "./pages/KpngOverview.jsx";
+import PmiusOverview from "./pages/PmiusOverview.jsx";
+import Oil307Overview from "./pages/Oil307Overview.jsx";
+import TuckerOverview from "./pages/TuckerOverview.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -69,8 +72,9 @@ const router = createBrowserRouter(
       <Route path="contact-us" element={<ContactUs />} />
       <Route path="privacy-policy" element={<Policy />} />
       <Route path="salaries" element={<Salaries />} />
-      {/* <Route path="siecorp-overview" element={<SiecorpOverview />} /> */}
+      <Route path="tucker-overview" element={<TuckerOverview />} />
       <Route path="kiewit-overview" element={<KiewitOverview />} />
+      <Route path="307oil-overview" element={<Oil307Overview />} />
       <Route path="l-and-t-overview" element={<LandtOverview />} />
       <Route path="tcs-overview" element={<TcsOverview />} />
       <Route path="hdfc-bank-overview" element={<HdfcBankOverview />} />
@@ -92,6 +96,7 @@ const router = createBrowserRouter(
       <Route path="wns-overview" element={<WnsOverview />} />
       <Route path="infosys-overview" element={<InfosysOverview />} />
       <Route path="kpng-overview" element={<KpngOverview />} />
+      <Route path="pmius-overview" element={<PmiusOverview />} />
     </Route>
   )
 );

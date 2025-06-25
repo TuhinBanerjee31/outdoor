@@ -11,7 +11,7 @@ import {tataMotorsData} from "../Data/tataMotorsData";
 import {uberData} from "../Data/uberData";
 import {udaanData} from "../Data/udaanData";
 import ReviewCard from "../components/ReviewCard";
-import { siecorpData } from "../Data/siecorpData";
+import { oil307Data } from "../Data/oil307Data";
 import { cognizantData } from "../Data/cognizantData";
 import { axisBankData } from "../Data/axisBankData";
 import { jioData } from "../Data/jioData";
@@ -33,6 +33,7 @@ import {amazonData} from "../Data/amazonData";
 import {byjusData} from "../Data/byjusData";
 import {viData} from "../Data/viData";
 import {wnsData} from "../Data/wnsData";
+import { tuckerData } from "../Data/tuckerData";
 
 const Reviews = () => {
   return (
@@ -132,6 +133,17 @@ const Reviews = () => {
         </div>
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
+          <h1 className="text-center mx-auto text-lg font-semibold">Tucker Reviews</h1>
+          <div className="grid grid-cols-12">
+            {tuckerData.reviewsData.map((item) => (
+              <div key={item.reviewTitle} className="col-span-6">
+                <ReviewCard data={item} />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Dell Reviews</h1>
           <div className="grid grid-cols-12">
             {dellData.reviewsData.map((item) => (
@@ -153,16 +165,16 @@ const Reviews = () => {
           </div>
         </div>
 
-        {/* <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
-          <h1 className="text-center mx-auto text-lg font-semibold">Siecorp Reviews</h1>
+        <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
+          <h1 className="text-center mx-auto text-lg font-semibold">307oil Reviews</h1>
           <div className="grid grid-cols-12">
-            {siecorpData.reviewsData.map((item) => (
+            {oil307Data.reviewsData.map((item) => (
               <div key={item.reviewTitle} className="col-span-6">
                 <ReviewCard data={item} />
               </div>
             ))}
           </div>
-        </div> */}
+        </div>
 
         <div className="max-w-screen-2xl mx-auto bg-[#E9F6FF] rounded-xl py-8 my-6">
           <h1 className="text-center mx-auto text-lg font-semibold">Vinci Reviews</h1>

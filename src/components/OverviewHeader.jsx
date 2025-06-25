@@ -4,11 +4,11 @@ import Star from "../assets/star-icon.png";
 const OverviewHeader = (props) => {
   return (
     <div className="py-7 px-5" style={{backgroundImage: `url(${props.dataset.companyImage})`}}>
-      <div className="bg-gray-100 bg-opacity-30 max-w-screen-xl mx-auto p-4 rounded-md shadow-md">
+      <div className="bg-gray-100 bg-opacity-80 max-w-screen-xl mx-auto p-4 rounded-md shadow-md">
         <img
           src={props.dataset.logoImage}
           alt={props.dataset.title}
-          className="border-2 h-20 rounded"
+          className="shadow-lg border border-gray-400 h-20 rounded"
         />
 
         <div className="flex justify-between items-center py-2">

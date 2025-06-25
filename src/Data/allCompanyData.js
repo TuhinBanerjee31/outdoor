@@ -1,4 +1,4 @@
-import siecorpLogo from "../assets/siecorp_logo.png";
+import tuckerLogo from "../assets/tucker_logo.png";
 import siecorpOffice from "../assets/siecorp_office.jpg";
 import kiewitLogo from "../assets/kiewit_logo.png";
 import kiewitOffice from "../assets/kiewit_office.jpg";
@@ -135,6 +135,16 @@ export const allCompanyData = [
       "https://static.ambitionbox.com/assets/v2/images/rs:fill:900:600/bG9jYWw6Ly8vY29tcGFueV8xNjQyNjQvcGhvdG9zL2Rpc3BsYXkvMDcxMTBhZTUxYTVkYzUxNmJjYTNkYjk1ZDg3MjAwMWU5OThlNGY3NS5qcGc=.webp",
     redirectLink: "/udaan-overview",
   },
+    {
+      id: 16,
+      companyName: "Tucker",
+      companyType: "Construction",
+      rating: "4.0",
+      companyLogo: tuckerLogo,
+      companyImage:
+        "https://media.istockphoto.com/id/2012317267/photo/large-innovative-open-space-office-with-tech-industry-workplaces-and-greenery-environment.jpg?s=612x612&w=0&k=20&c=6czLDqLYQFiofn6yMaM7dm03fq1iXAS17KO2ypgD5uk=",
+      redirectLink: "/tucker-overview",
+    },
   // {
   //   id: 10,
   //   companyName: "Siecorp",
@@ -144,6 +154,15 @@ export const allCompanyData = [
   //   companyImage: siecorpOffice,
   //   redirectLink: "/siecorp-overview",
   // },
+  {
+    id: 10,
+    companyName: "307oil",
+    companyType: "Oil & Gas",
+    rating: "4.2",
+    companyLogo: "https://307oil.com/assets/logo-CyyHWnsL.png",
+    companyImage: siecorpOffice,
+    redirectLink: "/307oil-overview",
+  },
   {
     id: 9,
     companyName: "Deloitte",
@@ -166,12 +185,14 @@ export const allCompanyData = [
   },
   {
     id: 14,
-    companyName: "TCS",
-    companyType: "IT Services & Consulting",
-    rating: "3.7",
-    companyLogo: tcsLogo,
-    companyImage: tcsOffice,
-    redirectLink: "/tcs-overview",
+    companyName: "PMIUS",
+    companyType: "E-learning",
+    rating: "4.6",
+    companyLogo:
+      "https://static.wixstatic.com/media/3fb04d_a22953501b6647a9a57db559bccea935~mv2.png/v1/crop/x_17,y_19,w_2113,h_966/fill/w_209,h_96,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/PMIUS%20HD%20LETTERING%20LOGO.png",
+    companyImage:
+      "https://assets-v2.scaler.com/assets/programs/undergrad/webp/campus/campus-04-fb80bee78a8a485caeacbf85c3436308db60f87a3ccc7db32172a198fd5be55b.webp.gz",
+    redirectLink: "/pmius-overview",
   },
   {
     id: 15,
@@ -372,5 +393,14 @@ export const allCompanyData = [
     companyImage:
       "https://media.assettype.com/outlookbusiness/import/uploadimage/library/16_9/16_9_5/IMAGE_1648366682.webp?w=801&auto=format%2Ccompress&fit=max&format=webp&dpr=1.0",
     redirectLink: "/bharti-airtel-overview",
+  },
+  {
+    id: 35,
+    companyName: "TCS",
+    companyType: "IT Services & Consulting",
+    rating: "3.7",
+    companyLogo: tcsLogo,
+    companyImage: tcsOffice,
+    redirectLink: "/tcs-overview",
   },
 ];
